@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+.first {
+    flex-grow: 1;
+}
+.second {
+    flex-grow: 2;
+}
+
+.box {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
