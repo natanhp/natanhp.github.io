@@ -6,5 +6,5 @@
 #include <Wt/WText.h>
 
 AboutPage::AboutPage() : Wt::WContainerWidget() {
-    this->addNew<Wt::WText>("aaa");
+    this->addNew<Wt::WText>("Under construction.");
 }
