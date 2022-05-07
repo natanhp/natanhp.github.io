@@ -21,6 +21,7 @@ BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication
     auto *contentsStack = initStackedWidget();
     buildLeftMenu(navigation, contentsStack);
     buildRightMenu(navigation);
+    buildFooter();
 }
 
 Wt::WNavigationBar *BlogApplication::initNavBar() {
@@ -49,4 +50,13 @@ void BlogApplication::buildLeftMenu(Wt::WNavigationBar *navBar, Wt::WStackedWidg
 void BlogApplication::buildRightMenu(Wt::WNavigationBar *navBar) {
     auto rightMenu = std::make_unique<Wt::WMenu>();
     auto rightMenu_ = navBar->addMenu(std::move(rightMenu));
+}
+
+void BlogApplication::buildFooter() {
+    auto footer = std::make_unique<Wt::WContainerWidget>();
+    footer->setHeight(100);
+    footer->setStyleClass(
+            "bg-dark text-white position-absolute start-0 end-0 d-flex align-items-center justify-content-center");
+    footer->addWidget(std::make_unique<Wt::WText>("Created by Natan Hari Pamungkas 2022"));
+    root()->addWidget(std::move(footer));
 }
