@@ -11,6 +11,7 @@
 #include <Wt/WStackedWidget.h>
 #include <Wt/WText.h>
 #include "blog.h"
+#include "profile.h"
 
 
 BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication(env) {
@@ -27,7 +28,7 @@ BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication
     auto leftMenu = std::make_unique<Wt::WMenu>(contentsStack);
     auto leftMenu_ = navigation->addMenu(std::move(leftMenu));
 
-    leftMenu_->addItem("Home", std::make_unique<Wt::WText>("There is no better place!"));
+    leftMenu_->addItem("Home", std::make_unique<ProfilePage>());
     leftMenu_->addItem("Layout", std::make_unique<Wt::WText>("Layout contents"))
             ->setLink(Wt::WLink(Wt::LinkType::InternalPath, "/layout"));
     leftMenu_->addStyleClass("me-auto");
