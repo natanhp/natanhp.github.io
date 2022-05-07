@@ -10,7 +10,7 @@
 #include <Wt/WStackedWidget.h>
 #include <Wt/WText.h>
 #include "blog.h"
-#include "profile.h"
+#include "about.h"
 
 
 BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication(env) {
@@ -41,7 +41,7 @@ void BlogApplication::buildLeftMenu(Wt::WNavigationBar *navBar, Wt::WStackedWidg
     auto leftMenu = std::make_unique<Wt::WMenu>(stackedWidget);
     auto leftMenu_ = navBar->addMenu(std::move(leftMenu));
 
-    leftMenu_->addItem("Home", std::make_unique<ProfilePage>())
+    leftMenu_->addItem("Home", std::make_unique<AboutPage>())
             ->setLink(Wt::WLink(Wt::LinkType::InternalPath, "/"));
     leftMenu_->addStyleClass("me-auto");
 }

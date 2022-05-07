@@ -8,9 +8,9 @@
 #define NATANHP_ID_PROFILE_H
 
 
-class ProfilePage : public Wt::WContainerWidget{
+class AboutPage : public Wt::WContainerWidget{
 public:
-    ProfilePage();
+    AboutPage();
 };
 
 
