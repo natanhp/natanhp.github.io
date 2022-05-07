@@ -17,21 +17,36 @@ BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication
     setTitle("natanhp.id");
     setTheme(std::make_shared<Wt::WBootstrap5Theme>());
 
-    auto *navigation = root()->addNew<Wt::WNavigationBar>();
+    auto *navigation = initNavBar();
+    auto *contentsStack = initStackedWidget();
+    buildLeftMenu(navigation, contentsStack);
+    buildRightMenu(navigation);
+}
 
+Wt::WNavigationBar *BlogApplication::initNavBar() {
+    auto *navigation = root()->addNew<Wt::WNavigationBar>();
     navigation->addStyleClass("navbar-dark bg-dark");
 
+    return navigation;
+}
+
+Wt::WStackedWidget *BlogApplication::initStackedWidget() {
     auto *contentsStack = root()->addNew<Wt::WStackedWidget>();
     contentsStack->addStyleClass("contents");
 
-    auto leftMenu = std::make_unique<Wt::WMenu>(contentsStack);
-    auto leftMenu_ = navigation->addMenu(std::move(leftMenu));
+    return contentsStack;
+}
+
+void BlogApplication::buildLeftMenu(Wt::WNavigationBar *navBar, Wt::WStackedWidget *stackedWidget) {
+    auto leftMenu = std::make_unique<Wt::WMenu>(stackedWidget);
+    auto leftMenu_ = navBar->addMenu(std::move(leftMenu));
 
     leftMenu_->addItem("Home", std::make_unique<ProfilePage>())
             ->setLink(Wt::WLink(Wt::LinkType::InternalPath, "/"));
     leftMenu_->addStyleClass("me-auto");
+}
 
-
+void BlogApplication::buildRightMenu(Wt::WNavigationBar *navBar) {
     auto rightMenu = std::make_unique<Wt::WMenu>();
-    auto rightMenu_ = navigation->addMenu(std::move(rightMenu));
+    auto rightMenu_ = navBar->addMenu(std::move(rightMenu));
 }
