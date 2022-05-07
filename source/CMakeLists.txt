@@ -1,6 +1,6 @@
 SET(WT_PROJECT_SOURCE
-        blog.cpp
-        )
+        main.cpp
+        blog.cpp blog.h)
 
 
 SET(WT_PROJECT_TARGET natanhpid.wt)
