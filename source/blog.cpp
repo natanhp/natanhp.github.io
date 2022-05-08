@@ -16,6 +16,7 @@
 BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication(env) {
     setTitle("natanhp.id");
     setTheme(std::make_shared<Wt::WBootstrap5Theme>());
+    root()->setHeight(*std::make_unique<Wt::WLength>(100, Wt::LengthUnit::ViewportHeight));
 
     auto *navigation = initNavBar();
     auto *contentsStack = initStackedWidget();
@@ -56,7 +57,7 @@ void BlogApplication::buildFooter() {
     auto footer = std::make_unique<Wt::WContainerWidget>();
     footer->setHeight(100);
     footer->setStyleClass(
-            "bg-dark text-white position-absolute start-0 end-0 d-flex align-items-center justify-content-center");
+            "bg-dark text-white position-absolute bottom-0 start-0 end-0 d-flex align-items-center justify-content-center");
     footer->addWidget(std::make_unique<Wt::WText>("Created by Natan Hari Pamungkas 2022"));
     root()->addWidget(std::move(footer));
 }
