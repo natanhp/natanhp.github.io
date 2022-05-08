@@ -19,8 +19,6 @@ private:
     static void buildLeftMenu(Wt::WNavigationBar *navBar, Wt::WStackedWidget *stackedWidget);
 
     static void buildRightMenu(Wt::WNavigationBar *navBar);
-
-    void buildFooter();
 };
 
 #endif //NATANHP_ID_BLOG_H
