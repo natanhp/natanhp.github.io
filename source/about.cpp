@@ -18,13 +18,13 @@ AboutPage::AboutPage() : Wt::WContainerWidget() {
 
     item = std::make_unique<Wt::WText>(
             "<p>Unfortunately this website is still under construction. "
-            "Here's a picture of Kojima Kana to cure your disappointment :).</p>");
+            "Here's a picture of Mitsuha Miyamuzu to cure your disappointment :).</p>");
     item->setStyleClass("text-start");
     vbox->addWidget(std::move(item));
 
-    auto image = std::make_unique<Wt::WImage>(Wt::WLink("resources/images/kojima-kana.webp"));
+    auto image = std::make_unique<Wt::WImage>(Wt::WLink("resources/images/mitsuha-miyamuzu.webp"));
     image->setAlternateText("Kojima Kana");
-    image->setMaximumSize(350, Wt::WLength::Auto);
+    image->setMaximumSize(500, Wt::WLength::Auto);
     image->setStyleClass("img-fluid img-thumbnail mx-auto mb-3");
     vbox->addWidget(std::move(image));
 
