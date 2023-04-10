@@ -24,7 +24,6 @@ BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication
     auto *navigation = initNavBar();
     auto *contentsStack = initStackedWidget();
     buildLeftMenu(navigation, contentsStack);
-    buildRightMenu(navigation);
 }
 
 Wt::WNavigationBar *BlogApplication::initNavBar() {
