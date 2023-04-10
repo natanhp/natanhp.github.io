@@ -23,7 +23,7 @@ AboutPage::AboutPage() : Wt::WContainerWidget() {
     vbox->addWidget(std::move(item));
 
     auto image = std::make_unique<Wt::WImage>(Wt::WLink("resources/images/mitsuha-miyamuzu.webp"));
-    image->setAlternateText("Kojima Kana");
+    image->setAlternateText("Mitsuha Miyamuzu");
     image->setMaximumSize(500, Wt::WLength::Auto);
     image->addStyleClass("rounded float-right img-fluid img-thumbnail mx-auto mb-3");
     vbox->addWidget(std::move(image));
