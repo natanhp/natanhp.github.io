@@ -5,7 +5,7 @@
 #ifndef NATANHP_ID_BLOG_H
 #define NATANHP_ID_BLOG_H
 
-#include <WApplication.h>
+#include <Wt/WApplication.h>
 
 class BlogApplication : public Wt::WApplication {
 public:

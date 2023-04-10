@@ -1,6 +1,6 @@
 
 
-#include <WServer.h>
+#include <Wt/WServer.h>
 #include "blog.h"
 
 int main(int argc, char **argv) {
