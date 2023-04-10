@@ -7,9 +7,12 @@ SET(WT_PROJECT_TARGET natanhpid.wt)
 
 ADD_EXECUTABLE(${WT_PROJECT_TARGET} ${WT_PROJECT_SOURCE})
 
-TARGET_LINK_LIBRARIES(${WT_PROJECT_TARGET} ${WT_CONNECTOR} wt)
+# Add the include directories for Wt
+include_directories(${CONAN_INCLUDE_DIRS})
 
-INCLUDE_DIRECTORIES(/usr/local/include/Wt)
+include_directories(${CONAN_INCLUDE_DIRS_WT})
+
+target_link_libraries(${WT_PROJECT_TARGET} ${CONAN_LIBS})
 
 ADD_CUSTOM_COMMAND(TARGET ${WT_PROJECT_TARGET} PRE_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
