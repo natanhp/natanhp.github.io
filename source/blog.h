@@ -6,6 +6,7 @@
 #define NATANHP_ID_BLOG_H
 
 #include "Wt/WContainerWidget.h"
+#include "Wt/WGlobal.h"
 #include <Wt/WApplication.h>
 
 class BlogApplication : public Wt::WApplication {
@@ -18,6 +19,8 @@ private:
     Wt::WStackedWidget *initStackedWidget(Wt::WBorderLayout *layout);
 
     static void buildLeftMenu(Wt::WNavigationBar *navBar, Wt::WStackedWidget *stackedWidget);
+
+    Wt::WBorderLayout *initMainLayout();
 };
 
 #endif //NATANHP_ID_BLOG_H

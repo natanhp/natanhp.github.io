@@ -18,8 +18,7 @@ BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication
     setTitle("natanhp.id");
     setTheme(std::make_shared<Wt::WBootstrap5Theme>());
 
-    auto container = root()->addNew<Wt::WContainerWidget>();
-    auto layout = container->setLayout(std::make_unique<Wt::WBorderLayout>());
+    auto *layout = initMainLayout();
     auto *navigation = initNavBar(layout);
     auto *contentsStack = initStackedWidget(layout);
     buildLeftMenu(navigation, contentsStack);
@@ -47,4 +46,9 @@ void BlogApplication::buildLeftMenu(Wt::WNavigationBar *navBar, Wt::WStackedWidg
     leftMenu_->addItem("Home", std::make_unique<AboutPage>())
             ->setLink(Wt::WLink(Wt::LinkType::InternalPath, "/"));
     leftMenu_->addStyleClass("me-auto");
+}
+
+Wt::WBorderLayout *BlogApplication::initMainLayout() {
+    auto container = root()->addNew<Wt::WContainerWidget>();
+    return container->setLayout(std::make_unique<Wt::WBorderLayout>());
 }
