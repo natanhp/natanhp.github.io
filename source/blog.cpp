@@ -3,41 +3,39 @@
 //
 
 #include <Wt/WBootstrap5Theme.h>
-#include <Wt/WLineEdit.h>
-#include <Wt/WMessageBox.h>
-#include <Wt/WTabWidget.h>
-#include <Wt/WTextArea.h>
 #include <Wt/WNavigationBar.h>
 #include <Wt/WPopupMenu.h>
 #include <Wt/WStackedWidget.h>
-#include <Wt/WText.h>
-#include "Wt/WContainerWidget.h"
+#include <Wt/WContainerWidget.h>
+#include <Wt/WBorderLayout.h>
+#include <memory>
+#include <utility>
 #include "blog.h"
 #include "about.h"
 
 
 BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication(env) {
     setTitle("natanhp.id");
-    /* useStyleSheet("resources/css/main.css"); */
     setTheme(std::make_shared<Wt::WBootstrap5Theme>());
 
-    auto *navigation = initNavBar();
-    auto *contentsStack = initStackedWidget();
+    auto container = root()->addNew<Wt::WContainerWidget>();
+    auto layout = container->setLayout(std::make_unique<Wt::WBorderLayout>());
+    auto *navigation = initNavBar(layout);
+    auto *contentsStack = initStackedWidget(layout);
     buildLeftMenu(navigation, contentsStack);
 }
 
-Wt::WNavigationBar *BlogApplication::initNavBar() {
-    auto container = root()->addNew<Wt::WContainerWidget>();
-    auto *navigation = container->addNew<Wt::WNavigationBar>();
-    navigation->setResponsive(true);
+Wt::WNavigationBar *BlogApplication::initNavBar(Wt::WBorderLayout *layout) {
+    auto navBarItem = std::make_unique<Wt::WNavigationBar>();
+    auto *navigation =layout->addWidget(std::move(navBarItem), Wt::LayoutPosition::North);
     navigation->addStyleClass("navbar");
 
     return navigation;
 }
 
-Wt::WStackedWidget *BlogApplication::initStackedWidget() {
-    auto *contentsStack = root()->addNew<Wt::WStackedWidget>();
-    contentsStack->addStyleClass("contents");
+Wt::WStackedWidget *BlogApplication::initStackedWidget(Wt::WBorderLayout *layout) {
+    auto contentStackItem = std::make_unique<Wt::WStackedWidget>();
+    auto *contentsStack = layout->addWidget(std::move(contentStackItem), Wt::LayoutPosition::Center);
 
     return contentsStack;
 }
