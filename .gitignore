@@ -137,3 +137,5 @@ graph_info.json
 *plist
 .idea
 .cache
+
+resources/wt_config.xml
