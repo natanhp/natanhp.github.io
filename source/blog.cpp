@@ -10,6 +10,7 @@
 #include <Wt/WBorderLayout.h>
 #include <memory>
 #include <utility>
+#include "Wt/WText.h"
 #include "blog.h"
 #include "about.h"
 
@@ -22,6 +23,11 @@ BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication
     auto *navigation = initNavBar(layout);
     auto *contentsStack = initStackedWidget(layout);
     buildLeftMenu(navigation, contentsStack);
+
+    auto footerItem = std::make_unique<Wt::WContainerWidget>();
+    auto footer = layout->addWidget(std::move(footerItem), Wt::LayoutPosition::South);
+    footer->addWidget(std::make_unique<Wt::WText>("ASDSAD"));
+    footer->setStyleClass("bg-warning d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top");
 }
 
 Wt::WNavigationBar *BlogApplication::initNavBar(Wt::WBorderLayout *layout) {
