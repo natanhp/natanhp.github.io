@@ -8,26 +8,33 @@
 #include <Wt/WStackedWidget.h>
 #include <Wt/WContainerWidget.h>
 #include <Wt/WBorderLayout.h>
+#include <Wt/WImage.h>
+#include <Wt/WLink.h>
 #include <memory>
 #include <utility>
 #include "Wt/WText.h"
 #include "blog.h"
 #include "about.h"
 
+BlogApplication::BlogApplication(const Wt::WEnvironment &env)
+    : Wt::WApplication(env) {
+  setTitle("natanhp.id");
+  setTheme(std::make_shared<Wt::WBootstrap5Theme>());
 
-BlogApplication::BlogApplication(const Wt::WEnvironment &env) : Wt::WApplication(env) {
-    setTitle("natanhp.id");
-    setTheme(std::make_shared<Wt::WBootstrap5Theme>());
+  auto *layout = initMainLayout();
+  auto *navigation = initNavBar(layout);
+  auto *contentsStack = initStackedWidget(layout);
+  buildLeftMenu(navigation, contentsStack);
 
-    auto *layout = initMainLayout();
-    auto *navigation = initNavBar(layout);
-    auto *contentsStack = initStackedWidget(layout);
-    buildLeftMenu(navigation, contentsStack);
-
-    auto footerItem = std::make_unique<Wt::WContainerWidget>();
-    auto footer = layout->addWidget(std::move(footerItem), Wt::LayoutPosition::South);
-    footer->addWidget(std::make_unique<Wt::WText>("ASDSAD"));
-    footer->setStyleClass("bg-warning d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top");
+  auto footerItem = std::make_unique<Wt::WContainerWidget>();
+  auto footer =
+      layout->addWidget(std::move(footerItem), Wt::LayoutPosition::South);
+  auto image = std::make_unique<Wt::WImage>(Wt::WLink("resources/icons/favicon.ico"));
+  image->setAlternateText("natanhp.id");
+  image->setStyleClass("img-flui:d");
+  footer->addWidget(std::move(image));
+  footer->setStyleClass("bg-warning d-flex flex-wrap justify-content-between "
+                        "align-items-center py-3 my-4 border-top");
 }
 
 Wt::WNavigationBar *BlogApplication::initNavBar(Wt::WBorderLayout *layout) {
