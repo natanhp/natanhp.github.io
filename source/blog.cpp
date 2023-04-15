@@ -33,8 +33,7 @@ BlogApplication::BlogApplication(const Wt::WEnvironment &env)
   image->setAlternateText("natanhp.id");
   image->setStyleClass("img-flui:d");
   footer->addWidget(std::move(image));
-  footer->setStyleClass("bg-warning d-flex flex-wrap justify-content-between "
-                        "align-items-center py-3 my-4 border-top");
+  footer->setStyleClass("bg-warning d-flex flex-wrap justify-content-between align-items-center p-3 mt-4 border-top");
 }
 
 Wt::WNavigationBar *BlogApplication::initNavBar(Wt::WBorderLayout *layout) {
