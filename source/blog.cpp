@@ -10,9 +10,11 @@
 #include <Wt/WBorderLayout.h>
 #include <Wt/WImage.h>
 #include <Wt/WLink.h>
+#include <Wt/WHBoxLayout.h>
 #include <memory>
 #include <utility>
-#include "Wt/WText.h"
+#include <Wt/WText.h>
+#include "Wt/WLength.h"
 #include "blog.h"
 #include "about.h"
 
@@ -25,15 +27,22 @@ BlogApplication::BlogApplication(const Wt::WEnvironment &env)
   auto *navigation = initNavBar(layout);
   auto *contentsStack = initStackedWidget(layout);
   buildLeftMenu(navigation, contentsStack);
+  buildFooter(layout);
+}
 
+void BlogApplication::buildFooter(Wt::WBorderLayout *layout) {
   auto footerItem = std::make_unique<Wt::WContainerWidget>();
   auto footer =
       layout->addWidget(std::move(footerItem), Wt::LayoutPosition::South);
+  auto footerLayout = footer->setLayout(std::make_unique<Wt::WHBoxLayout>());
   auto image = std::make_unique<Wt::WImage>(Wt::WLink("resources/icons/favicon.ico"));
   image->setAlternateText("natanhp.id");
-  image->setStyleClass("img-flui:d");
-  footer->addWidget(std::move(image));
-  footer->setStyleClass("bg-warning d-flex flex-wrap justify-content-between align-items-center p-3 mt-4 border-top");
+  image->setMaximumSize(Wt::WLength(35), Wt::WLength(35));
+  footer->setStyleClass("d-flex flex-wrap justify-content-between align-items-center p-3 mt-4 border-top");
+  footerLayout->addWidget(std::move(image));
+  auto creatorMarkText = std::make_unique<Wt::WText>("Natan Hari Pamungkas 2022");
+  creatorMarkText->setStyleClass("fw-bolder fs-6");
+  footerLayout->addWidget(std::move(creatorMarkText));
 }
 
 Wt::WNavigationBar *BlogApplication::initNavBar(Wt::WBorderLayout *layout) {

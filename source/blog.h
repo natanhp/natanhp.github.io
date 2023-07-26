@@ -19,6 +19,7 @@ private:
     Wt::WStackedWidget *initStackedWidget(Wt::WBorderLayout *layout);
 
     static void buildLeftMenu(Wt::WNavigationBar *navBar, Wt::WStackedWidget *stackedWidget);
+    static void buildFooter(Wt::WBorderLayout *layout);
 
     Wt::WBorderLayout *initMainLayout();
 };
