@@ -2,13 +2,13 @@ import rss, {pagesGlobToRssItems} from '@astrojs/rss';
 
 export async function GET(context) {
   return rss({
-    title: 'nicdun.dev - blog',
-    description: 'Crafting the Digital Future with Web Development Wonders',
+    title: 'natanhp.id',
+    description: 'Thoughts and reflections on life\'s challenges, expressed through the written word. Discover my personal journey of learning and growth.',
     site: context.site,
     items: await pagesGlobToRssItems(
       import.meta.glob('./posts/*.{md,mdx}'),
     ),
     stylesheet: './rss/styles.xsl',
-    customData: `<language>en-us</language>`,
+    customData: `<language>id-ID</language>`,
   });
 }

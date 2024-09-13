@@ -1,8 +1,8 @@
 export const AppConfig = {
-	site_name: 'AstroPress',
-	title: 'AstroPress | Astro and Tailwind CSS',
-	description: 'Boilerplate built with Astro and Tailwind CSS',
-	author: 'Nicolas',
-	locale_region: 'de-en',
-	locale: 'en'
+	site_name: 'natanhp.id',
+	title: 'natanhp.id',
+	description: 'Thoughts and reflections on life\'s challenges, expressed through the written word. Discover my personal journey of learning and growth.',
+	author: 'Natan Hari Pamungkas',
+	locale_region: 'id-ID',
+	locale: 'id',
 };
