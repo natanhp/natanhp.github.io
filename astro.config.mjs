@@ -39,7 +39,7 @@ export default defineConfig({
 		remarkPlugins: [remarkReadingTime]
 	},
 	integrations: [tailwind(), react(), sitemap()],
-	output: 'static',
+	output: 'dist',
 	adapter: vercelStatic({
 		webAnalytics: {
 			enabled: true
