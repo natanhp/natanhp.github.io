@@ -31,7 +31,7 @@ const options = {
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://natanhp.github.io/',
+	site: 'https://natanhp.github.io',
 	markdown: {
 		syntaxHighlight: false,
 		// Disable syntax built-in syntax hightlighting from astro
