@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://natanhp.github.io/sitemap-index.xml
+Sitemap: https://natanhp.id/sitemap-index.xml
