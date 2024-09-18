@@ -3,7 +3,6 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import { remarkReadingTime } from './src/utils/readingTime';
 import rehypePrettyCode from 'rehype-pretty-code';
-import vercelStatic from '@astrojs/vercel/static';
 import react from '@astrojs/react';
 import sitemap from "@astrojs/sitemap";
 const options = {
