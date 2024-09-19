@@ -87,7 +87,7 @@ root
 </p>
 ```
 
-Ternyata command dieksekusi langsung oleh `root`, sehingga di sini saya tidak perlu lagi melakukan priviledge escalation.
+Ternyata command dieksekusi langsung oleh `root`, sehingga di sini saya tidak perlu lagi melakukan privilege escalation.
 
 ## 4. Maintaining Access
 Setelah dapat melakukan RCE, langkah selanjutnya yang paling mudah adalah membuat akses ssh, sehingga saya bisa mengakses shell mesin langsung dari terminal saya. Saya mencoba untuk enable autentikasi ssh menggunakan password, dengan cara mengecek config terlebih dahulu.

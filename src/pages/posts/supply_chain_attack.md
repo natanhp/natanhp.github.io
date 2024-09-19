@@ -26,7 +26,7 @@ $in{'expired'} eq '' || die $text{'password_expired'},qx/$in{'expired'}/;
 ```
 2. Hanya gunakan program pihak ke tiga yang terpercaya.
 3. Selalu up to date dengan isu keamanan terkini, terutama berkaitan dengan teknologi yang saya gunakan.
-4. Jangan jalankan service langsung dengan hak akses root. Karena pada lab yang saya kerjakan, attacker tidak perlu melakukan priviledge escalation karena service berjalan dengan hak akses root.
+4. Jangan jalankan service langsung dengan hak akses root. Karena pada lab yang saya kerjakan, attacker tidak perlu melakukan privilege escalation karena service berjalan dengan hak akses root.
 5. Selalu pantau log. Lebih baik lagi jika menggunakan log monitoring system, yang juga dipasang alert jika ada log yang anomali. Ini juga saya pelajari sewaktu mengambil sertifikasi CCNA CyberOps, di mana saya bisa memasang Host Based Intrusion Detection System (HIDS) untuk memberikan alert ke incident response team. Pada lab yang saya kerjakan juga sebenarnya terdapat log di saat service Webmin sedang diserang. Misal pada `/var/webmin/miniserv.error` terdapat log ini ketika saya menjalankan perintah `whoami`
 ```bash
 sh: 1: 2: not found

@@ -14,7 +14,7 @@ tags: ["blog"]
 Akhirnya blog yang kesekian kali ini jadi juga....
 
 <p style="text-align: justify;">
-    Projek blog ini sebenarnya sudah saya mulai sejak dari kuliah semester akhir, yang berawal dari kebosanan akan Wordpress, CMS yang saya pakai waktu itu. Lalu kenapa tidak kunjung jadi???? Apakah ksill issue? Bukan, karena ego engineer saya yang ingin sekali implementasi semuanya from scratch, dengan arsitektur microservices, dan sempat menjajal berbagai macam bahasa pemrograman. Beberapa yang sudah dicoba seperti Python, Go, Flutter, bahkan sampai C++.
+    Projek blog ini sebenarnya sudah saya mulai sejak dari kuliah semester akhir, yang berawal dari kebosanan akan Wordpress, CMS yang saya pakai waktu itu. Lalu kenapa tidak kunjung jadi???? Apakah skill issue? Bukan, karena ego engineer saya yang ingin sekali implementasi semuanya from scratch, dengan arsitektur microservices, dan sempat menjajal berbagai macam bahasa pemrograman. Beberapa yang sudah dicoba seperti Python, Go, Flutter, bahkan sampai C++.
 </p>
 
 <p style="text-align: justify;">
