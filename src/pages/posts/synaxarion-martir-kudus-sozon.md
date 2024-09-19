@@ -6,7 +6,7 @@ description: "Synaxarion dari Martir Kudux Sozon yang kita peringati hari ini."
 author: "natanhp"
 excerpt: "Martir Kudus Sozon adalah seorang martir yang berani berkorban untuk menegaskan Allah yang benar dan patut disembah."
 image:
-  src: "../src/assets/martir-kudus-sozon.jpg"
+  src: "/images/martir-kudus-sozon.jpg"
   alt: "Ikon Martir Kudus Sozon dari Kilikia. Sumber: https://www.johnsanidopoulos.com/2010/09/saint-sozon-martyr-of-cilicia-and.html"
 tags: ["Eastern Orthodox Church"]
 ---
