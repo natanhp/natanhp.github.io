@@ -28,7 +28,7 @@ Aer adalah kain persegi yang digunakan dalam Liturgi Suci, dengan warna mengikut
 
 Sumber:
 - A Monk of St. Tikhon’s Monastery. (1986). These Truths We Hold - The Holy Orthodox Church: Her LIfe and Teachings. South Canaan: St. Tikhon’s Seminary Press.
-- Wiley (n.d.). Glossary of Terms. Accessed on October 4, 2024, from https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781444301229.gloss
-- Vsemolitva (n.d.). Simvol Very Liturgiya Vernykh. Accessed on October 4, 2024, from https://vsemolitva.ru/simvol-very-liturgiya-vernyh.html
-- Christianity Stack Exchange (2014). What is the significance of the Aer. Accessed on October 4, 2024, from https://christianity.stackexchange.com/a/25781/78807
+- Wiley (n.d.). Glossary of Terms. Diakses 2 Oktober 2024 dari https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781444301229.gloss
+- Vsemolitva (n.d.). Символ веры литургия Верных. Diakses 2 Oktober 2024 dari https://vsemolitva.ru/simvol-very-liturgiya-vernyh.html
+- Christianity Stack Exchange (2014). What is the significance of the Aer. Diakses 2 Oktober 2024 dari https://christianity.stackexchange.com/a/25781/78807
 
