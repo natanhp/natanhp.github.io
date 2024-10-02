@@ -17,11 +17,11 @@ Aer adalah kain persegi yang digunakan dalam Liturgi Suci, dengan warna mengikut
 2. Menyelimuti Cawan dan Diskos setelah Arak-arakan Agung, melambangkan tubuh Kristus di kubur dan kain kafan-Nya, serta batu penutup kubur.
 3. Saat Romo Diakon mengucapkan "Pintu Gerbang! Pintu Gerbang! Dengan hikmat mari kita memperhatikan!", Romo Presbiter akan mengangkat Aer dari benda-benda anugrah, sebagai lambang kubur Kristus yang terbuka.
 4. Saat pembacaan pengakuan iman Nikea-Konstantinopel, Aer akan diangkat di atas benda-benda anugrah, dan digoyang-goyangkan oleh satu atau lebih imam untuk melambangkan:
-    a. Tiupan angin yang menjadi tanda hadirnya Roh Kudus seperti di Kisah Para Rasul 2:2 (TB).
+    * Tiupan angin yang menjadi tanda hadirnya Roh Kudus seperti di Kisah Para Rasul 2:2 (TB).
     ```
     Tiba-tiba turunlah dari langit suatu bunyi seperti tiupan angin keras yang memenuhi seluruh rumah, di mana mereka duduk.
     ```
-    b. Gempa saat kubur Kristus terbuka seperti di Matius 28:2 (TB).
+    * Gempa saat kubur Kristus terbuka seperti di Matius 28:2 (TB).
     ```
     Maka terjadilah gempa bumi yang hebat sebab seorang malaikat Tuhan turun dari langit dan datang ke batu itu dan menggulingkannya lalu duduk di atasnya.
     ```
