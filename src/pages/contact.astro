@@ -1,0 +1,63 @@
+---
+import Section from '@/components/Section.astro';
+import Base from '@/layouts/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+
+const { title } = AppConfig;
+const { description } = AppConfig;
+---
+
+<Base head={{ title, description }}>
+    <Section>
+        <div class="text-sm">
+            <p class="pt-6 text-4xl">Let's Connect!</p>
+            <p class="mt-2">
+                I'd love to hear from you! Feel free to reach out if you have a question about a post, a suggestion for a future topic, or want to say hello.
+            </p>
+
+            <p class="pb-2 pt-10 text-lg font-bold">Email</p>
+            <p>natanhp@protonmail.com</p>
+
+            <p class="pb-2 pt-10 text-lg font-bold">PGP Key</p>
+            <p>I understand some information needs extra security. If you're sending something sensitive, you can encrypt it using my PGP key:</p>
+
+            <blockquote class="p-1 border-l-4 mt-4">
+                <pre>
+                  <code>
+                    -----BEGIN PGP PUBLIC KEY BLOCK-----
+
+                    xsBNBFogugQBCADE5+BX+qm14ghJuYhn8DY//mvhOnV1I1/VJv0HIvWerVKB
+                    kitZJKZm9rxMggHS1tuHRcWrMyOsVEXxT95i0NDNqKHYYlheKt+iW8PDHYz7
+                    VX/IqUQ7fjnT2Bpfxs9x2A+YBMkjcgq8xdiR5VLze+vaHRB0BrfGOcs0gs7x
+                    5pyjdyduLNQHfWOuXbGCWKJnDP9ahemGOcHNfRV4q6Q7ucdO0cB9eVngATNl
+                    SfH0DwTMdikFA/bxag2mwWn+moi/WdojrTkbbA0oA1QdaOKJF3ReIp3As92Y
+                    uNUVn170ubq29a0wpw23eJIwsWBZjnm96loSg+B3piH2Ky+yDIFrL4CJABEB
+                    AAHNL25hdGFuaHBAcHJvdG9ubWFpbC5jb20gPG5hdGFuaHBAcHJvdG9ubWFp
+                    bC5jb20+wsB/BBABCAApBQJaILoEBgsJBwgDAgkQ7W8WHJ4Ilz0EFQgKAgMW
+                    AgECGQECGwMCHgEACgkQ7W8WHJ4Ilz1Ljwf/cpGsWIm8yaxw6JiZbUo/FSkb
+                    5BNm8+71rIpRLtTmLMX4PBSHUEbw3KkL7PBE4ZGN1ptyU22C2WMbpJVk4eAK
+                    5YgGi9Rz303PLh/HYBeXjJdcboxG8xTCC0G1ryY8iUTgVOex/SacxU8xmWqd
+                    xH1SZ8z3tm/EZSIainy3VrYnqDYeZigX7VGoZphPyYxKD3gyvnxbPQJCgTJT
+                    UHSyry2ZPy1C6FHHC0RoQ2QWhnso5BWXt1Sjalk3JKc3z5fXZQy25ioW9ir0
+                    sjHtK5sW7k0YH23LU28KsoDnHS5KcjWXfkwXHSE42oLapCjuczmOG84Odadn
+                    68rY/i0zba3KqhqIqM7ATQRaILoEAQgAn4hXXuNlJvFlWmw+iqgJwkgSddaN
+                    M18z+8qmh7i0wMB6MfmnEN3KZRd939u6Qp9GqebqRhkRd06ZzdoFEOBEGiyL
+                    QhGWLvv55n1CQ1+LahIHv3qr97VMt9SakV2mZkZc1/DTchXVZgPEqEeeWE3V
+                    ziqjdGCV81O5rqQaYm5a3ou6PR2J5YXwZCiTc2YzrEm+NODrxZ00QVvRPlP2
+                    bNkDC8YA6TVEzsWnXzylmzCyC4E7uqF1uJnxOpCTSHPOZxEpt8VG7DRQbSoU
+                    YEcTfxdme400Hhy4MuZEtyx4pH6vT+BOWGBX0WbMwwZCMfXy83yS3JUFAT3Y
+                    QXZokm94hU6L3wARAQABwsBpBBgBCAATBQJaILoECRDtbxYcngiXPQIbDAAK
+                    CRDtbxYcngiXPc4zB/sEbNAy03t7JVgTI0YYPFJqcorE8ybKUgO5Q4zT7XKI
+                    R3QvPLscg+C2TVZUhWUF9+xZVMewQqj5n4eTLC/UIiMe3Z1NIYeDRvQJFTO2
+                    xfJU/kMjZ85pNV6uQ2KSHsLQSfP4uvN6oZiQlbrB2noc7SplMnhFEofFTpsa
+                    CU1wGtOEyMaoGV2bQYRwDUBSGnHqf/wxSRLZueN5/ERY/zQNValT4MxVMIJi
+                    /KWLXGe9WISGDSw2nGI4YZ407gtYst/+ttJGD873Ds6sFOUt/dZxgJ2B+0xz
+                    XIempGI34UFrFcexzFcQ4whLpldfCN2XSQWEqupGZ0gfPbwcK9ZKMpjHXAir
+                    =Bd0L
+                    -----END PGP PUBLIC KEY BLOCK-----
+                  </code>
+                </pre>
+            </blockquote>
+        <p class="mt-6">I look forward to connecting with you!</p>
+    </Section>
+</Base>
