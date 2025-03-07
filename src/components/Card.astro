@@ -1,6 +1,7 @@
 ---
 import { formatDate } from '@/utils/data.util';
 import Tags from './Tags.astro';
+import { Image } from 'astro:assets';
 interface Props {
 	post: any;
 }
@@ -30,7 +31,7 @@ const { post } = Astro.props;
 				</div>
 
 				<p class="pb-4 text-lg font-bold">{post.frontmatter.title}</p>
-
+				<Image src={post.frontmatter.image.src} alt={post.frontmatter.image.alt} class="rounded-lg" />
 				<Tags tags={post.frontmatter.tags} />
 				<p class="line-clamp-6 pt-4">{post.frontmatter.excerpt}</p>
 			</div>
