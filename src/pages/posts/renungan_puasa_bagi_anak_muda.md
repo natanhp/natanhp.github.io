@@ -6,7 +6,7 @@ description: "Tulisan ini adalah draft yang saya buat untuk renungan bagi Ha Na'
 author: "natanhp"
 excerpt: "Hari ini umat Orthodox memasuki Minggu Pertama dalam masa Puasa Agung Catur Dasa. Puasa ini bertujuan untuk menyiapkan kita dalam menyambut paskah. Sebagai seorang pemuda, masa puasa ketat seperti ini cukup berat untuk dijalani. Secara umum, sebagai pemuda pasti memiliki masalah yang harus dipikirkan, seperti pekerjaan, hubungan, atau pendidikan. Tentu saja puasa akan menambah beban kita yang tadinya sudah cukup banyak. Saya sendiri pernah mengalami, waktu pertama kali saya mencoba puasa, saya dimarahi klien dan diputuskan oleh pacar saya di waktu yang sama, dengan kondisi lapar dan haus."
 image:
-  src: "./renungan-puasa-bagi-pemuda.jpeg"
+  src: "/images/renungan-puasa-bagi-pemuda.jpeg"
   alt: "Seorang pemuda membawakan renungan puasa saat sembahyang senja untuk Ha Na'Arim di Parokia Tritunggal Mahakudus, Solo. Circa 2025."
 tags: ["Eastern Orthodox Church"]
 ---
