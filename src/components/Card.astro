@@ -6,10 +6,9 @@ import defaultImage from '@/assets/images/default.jpg';
 
 interface Props {
 	post: any;
-	imageMaxHeight: number;
 }
 
-const { post, imageMaxHeight } = Astro.props;
+const { post } = Astro.props;
 ---
 
 <a href={`/posts/${post.id}`}>
@@ -26,7 +25,7 @@ const { post, imageMaxHeight } = Astro.props;
 				</div>
 				<p class="pb-4 text-lg font-bold">{post.data.title}</p>
 				<div class="pb-2">
-					<div class={`flex justify-evenly h-full max-h-${imageMaxHeight} overflow-hidden`}>
+					<div class={`flex justify-evenly h-full max-h-48 overflow-hidden`}>
 						<Image
 							src={post.data.image.src ?? defaultImage}
 							alt={post.data.image.alt ?? 'default image'}
