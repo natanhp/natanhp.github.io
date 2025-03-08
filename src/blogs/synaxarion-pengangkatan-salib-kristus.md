@@ -6,7 +6,7 @@ description: "Synaxarion dari peristiwa Pengangkatan Salib Kristus yang Suci dan
 author: "natanhp"
 excerpt: "Hari itu, telah disaksikan kodrat dari Salib Kristus yang memberi hidup, karena olehnya Dia telah mati dan memberikan sukacita pada seluruh dunia."
 image:
-  src: "/images/exaltation-holy-cross.jpg"
+  src: "../assets/images/exaltation-holy-cross.jpg"
   alt: "Ikon Pengangkatan Salib Kristus yang Suci dan Memberi Hidup. Sumber: https://benedictseraphim.wordpress.com/2009/09/14/the-elevation-of-the-precious-and-lifegiving-cross/"
 tags: ["Eastern Orthodox Church"]
 ---

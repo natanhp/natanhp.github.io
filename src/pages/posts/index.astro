@@ -4,13 +4,14 @@ import Base from '@/layouts/Base.astro';
 import Section from '@/components/Section.astro';
 import Card from '@/components/Card.astro';
 import Heading from '@/components/Heading.astro';
-import { sortPostsByDate } from '@/utils/data.util';
+import { sortBlogByDate } from '@/utils/data.util';
+import { getCollection } from 'astro:content';
 
 const { title } = AppConfig;
 const { description } = AppConfig;
 
-const allPosts = await Astro.glob('./*.md');
-allPosts.sort(sortPostsByDate);
+const allPosts = await getCollection('blog');
+allPosts.sort(sortBlogByDate);
 ---
 
 <Base head={{ title, description }}>
@@ -19,7 +20,7 @@ allPosts.sort(sortPostsByDate);
 		{
 			allPosts.map((post: any) => (
 				<div class="mb-4 basis-1 last:mb-0">
-					<Card post={post} />
+					<Card post={post} imageMaxHeight={48} />
 				</div>
 			))
 		}

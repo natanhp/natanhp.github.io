@@ -2,6 +2,8 @@
 import { formatDate } from '@/utils/data.util';
 import Section from './Section.astro';
 import Tags from './Tags.astro';
+import { Image } from 'astro:assets';
+import defaultImage from '@/assets/images/default.jpg';
 
 interface Props {
 	title: string;
@@ -10,12 +12,14 @@ interface Props {
 	minutesRead: string;
 	pubDate: string;
 	img: {
-		src: string;
+		src: any;
 		alt: string;
 	};
 }
 
 const { title, pubDate, tags, minutesRead, img } = Astro.props;
+
+img.alt = img.alt ?? 'Ilustrasi';
 
 const formattedDate = formatDate(pubDate);
 ---
@@ -30,11 +34,9 @@ const formattedDate = formatDate(pubDate);
 			<span>{formattedDate}</span> - <span>{minutesRead}</span>
 		</div>
 
-		{img.src ? 
-			<div class="grid grid-cols-1 justify-items-center space-y-4">
-				<img src={img.src} alt={img.alt}  />
-    			<div class="text-xs">{img.alt}</div>
-			</div>
-		: null}
+		<div class="grid grid-cols-1 justify-items-center space-y-4">
+			<Image src={img.src ?? defaultImage} alt={img.alt} />
+			<div class="text-xs">{img.alt}</div>
+		</div>
 	</div>
 </Section>

@@ -6,7 +6,7 @@ description: "Penggunaan Simbol dalam Gereja Orthodox Timur."
 author: "natanhp"
 excerpt: "Dalam kekayaan tradisi Kekristenan, khususnya Gereja Orthodox Timur, banyak sekali digunakan simbol-simbol yang memiliki peran sentral dalam kehidupan iman Gereja."
 image:
-  src: "/images/js-yohanes-js-prokhorus.jpg"
+  src: "../assets/images/js-yohanes-js-prokhorus.jpg"
   alt: "Ikon Js Yohanes Sang Theolog dan Js Prokhorus Rasul. Sumber: https://www.oramaworld.com/en/p/10797/Apostle_and_Evangelist_Saint_John_the_Theologian_with_Saint_Prochorus_the_Apostle,_in_Cave,_Full_Body_-_Byzantine_Icon"
 tags: ["Eastern Orthodox Church"]
 ---

@@ -2,38 +2,42 @@
 import { formatDate } from '@/utils/data.util';
 import Tags from './Tags.astro';
 import { Image } from 'astro:assets';
+import defaultImage from '@/assets/images/default.jpg';
+
 interface Props {
 	post: any;
+	imageMaxHeight: number;
 }
 
-const { post } = Astro.props;
+const { post, imageMaxHeight } = Astro.props;
 ---
 
-<a href={post.url}>
+<a href={`/posts/${post.id}`}>
 	<div
 		class="h-full rounded-2xl bg-stone-200/50 from-orange-900 via-amber-700 to-white p-[1px] text-sm shadow-[inset_0_0_0_1px_rgba(255,255,255,0.4)] hover:bg-gradient-to-r dark:bg-gray-900"
 	>
 		<div
-			class="flex h-full w-full
-		flex-col
-    rounded-[1rem]
-		bg-stone-300
-		p-4
-		text-gray-900
-    opacity-90
-    dark:bg-stone-800
-		dark:text-white"
+			class="flex h-full w-full flex-col rounded-[1rem] bg-stone-300 p-4 text-gray-900 opacity-90 dark:bg-stone-800 dark:text-white"
 		>
 			<div class="flex-auto">
 				<div class="flex justify-between pb-4 text-xs">
-					<p>{formatDate(post.frontmatter.pubDate)}</p>
-					<p>{post.frontmatter.minutesRead}</p>
+					<p>{formatDate(post.data.pubDate)}</p>
+					<p>{post.data.minutesRead}</p>
 				</div>
-
-				<p class="pb-4 text-lg font-bold">{post.frontmatter.title}</p>
-				<Image src={post.frontmatter.image.src} alt={post.frontmatter.image.alt} class="rounded-lg" />
-				<Tags tags={post.frontmatter.tags} />
-				<p class="line-clamp-6 pt-4">{post.frontmatter.excerpt}</p>
+				<p class="pb-4 text-lg font-bold">{post.data.title}</p>
+				<div class="pb-2">
+					<div class={`flex justify-evenly h-full max-h-${imageMaxHeight} overflow-hidden`}>
+						<Image
+							src={post.data.image.src ?? defaultImage}
+							alt={post.data.image.alt ?? 'default image'}
+							class="self-baseline rounded-lg pb-4"
+						/>
+					</div>
+				</div>
+				<div class="tp-4">
+					<Tags tags={post.data.tags} />
+				</div>
+				<p class="line-clamp-6 pt-4">{post.data.excerpt}</p>
 			</div>
 			<p class="pt-4 underline">read more →</p>
 		</div>
