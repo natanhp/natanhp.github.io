@@ -4,7 +4,6 @@ import Card from '@/components/Card.astro';
 import Base from '@/layouts/Base.astro';
 import Heading from '@/components/Heading.astro';
 import { AppConfig } from '@/utils/AppConfig';
-import { type MarkdownInstance } from 'astro/dist/@types/astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths(): Promise<any> {
@@ -21,7 +20,7 @@ export async function getStaticPaths(): Promise<any> {
 }
 
 interface Props {
-	posts: MarkdownInstance<Record<string, any>>[];
+	posts:any;
 }
 
 const { tag } = Astro.params;
@@ -41,7 +40,7 @@ const { posts } = Astro.props;
 				.filter((post: any) => post.data.tags?.includes(tag))
 				.map((post: any) => (
 					<div class="mb-4 basis-1 last:mb-0">
-						<Card post={post} imageMaxHeight={80}/>
+						<Card post={post} />
 					</div>
 				))
 		}
