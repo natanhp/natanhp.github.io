@@ -6,7 +6,7 @@ description: "Makna Penggunaan Aer dalam Liturgi Suci."
 author: "natanhp"
 excerpt: "Aer adalah kain persegi yang digunakan dalam Liturgi Suci, dengan warna mengikuti hari liturgis."
 image:
-  src: "/images/aer-romo.jpg"
+  src: "../assets/images/aer-romo.jpg"
   alt: "Romo Protobresbyter Alexios saat mengangkat Aer. Sumber: Instagram @gerejaorthodox_solo"
 tags: ["Eastern Orthodox Church"]
 ---

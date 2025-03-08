@@ -1,0 +1,26 @@
+---
+import { AppConfig } from '@/utils/AppConfig';
+import Base from '@/layouts/Base.astro';
+import PostHeader from '@/components/PostHeader.astro';
+import PostContent from '@/components/PostContent.astro';
+import { render } from 'astro:content';
+
+const { description } = AppConfig;
+
+const { post } = Astro.props;
+const { Content, remarkPluginFrontmatter} = await render(post);
+---
+
+<Base head={{ title: post.data.title, description }}>
+	<div class="mx-auto w-full max-w-screen-md">
+		<PostHeader
+			title={post.data.title}
+			author={post.data.author}
+			tags={post.data.tags}
+			minutesRead={remarkPluginFrontmatter.minutesRead}
+			pubDate={post.data.pubDate}
+			img={{ src: post.data.image.src, alt: post.data.image.alt }}
+		/>
+		<PostContent><Content /></PostContent>
+	</div>
+</Base>

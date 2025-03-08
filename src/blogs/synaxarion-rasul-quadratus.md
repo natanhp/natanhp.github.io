@@ -6,7 +6,7 @@ description: "Synaxarion dari Rasul Kudus Kristus."
 author: "natanhp"
 excerpt: "Rasul Kudus Quadratus adalah satu dari 70 murid. Menurut Uskup Eusebeus dari Kaisarea, dia memiliki karunia bernubuat seperti putri-putri dari Rasul Filipus. Js Quadratus berkarya di Athena dan Magnesia dan menurut Uskup Dionisius dari Korintus, dia menjadi Uskup Athena ke-3. Olehnya banyak orang-orang pagan bertobat dan menjadi pengikut Kristus. Keberhasilannya membuat orang-orang pagan marah dan melemparinya dengan batu, namun dia tidak meninggal. Kemudian dia dilemparkan ke dalam penjara dan meninggal karena kelaparan."
 image:
-  src: "/images/quadratus.jpg"
+  src: "../assets/images/quadratus.jpg"
   alt: "Ikon Rasul Kudus Quadratus. Sumber: Facebook St Matthew the Apostle Orthodox Church"
 tags: ["Eastern Orthodox Church"]
 ---

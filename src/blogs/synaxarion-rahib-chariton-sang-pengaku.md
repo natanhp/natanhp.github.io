@@ -6,7 +6,7 @@ description: "Synaxarion dari Rahib Chariton Sang Pengaku."
 author: "natanhp"
 excerpt: "Js Chariton berkarya di Kota Ikonium pada masa penganiayaan di bawah pemerintahan antara Kaisar Galerius sampai Kaisar Licinius. Dia menolak dewa-dewa pagan dan berani bersaksi akan imannya terhadap Kristus Sang Juruselamat."
 image:
-  src: "/images/js-chariton-confessor.jpg"
+  src: "../assets/images/js-chariton-confessor.jpg"
   alt: "Ikon Js Chariton. Sumber: https://lit.royaldoors.net/2017/08/12/september-28-2017-our-venerable-father-chariton-the-confessor-abbot-of-palestine-276/"
 tags: ["Eastern Orthodox Church"]
 ---

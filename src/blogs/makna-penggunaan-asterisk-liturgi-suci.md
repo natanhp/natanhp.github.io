@@ -6,7 +6,7 @@ description: "Makna Penggunaan Asterisk dalam Liturgi Suci."
 author: "natanhp"
 excerpt: "sterisk atau Bintang adalah alat yang diletakkan di atas Diskos agar roti tidak langsung terkena kain penutup. Benda ini terdiri dari dua bilah yang disilangkan dan digabungkan, membentuk tanda Salib."
 image:
-  src: "/images/asterisk.jpg"
+  src: "../assets/images/asterisk.jpg"
   alt: "Asterisk. Sumber: https://agatstore.cz/brass-asterisk-with-fragmentary-gilding-and-oxidation-271649lfr"
 tags: ["Eastern Orthodox Church"]
 ---

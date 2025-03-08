@@ -6,7 +6,7 @@ description: "Makna Penggunaan Trikirion dan Drikirion dalam Liturgi Suci."
 author: "natanhp"
 excerpt: "Trikirion adalah lilin berjumlah tiga buah yang melambangkan Tritunggal, yaitu Allah yang Esa, yang memiliki Firman dan Roh. Sedangkan Drikirion adalah lilin yang berjumlah dua buah, yang melambangkan dua kodrat Kristus yang adalah Allah sejati dan manusia sejati."
 image:
-  src: "/images/episkop-agung-kallinikos-athena.jpg"
+  src: "../assets/images/episkop-agung-kallinikos-athena.jpg"
   alt: "Episkop Agung Kallinikos dari Athena dan Seluruh Yunani memberkati umat dengan Trikirion dan Drikirion. Sumber: https://gerejaorthodox.id/daftar-klerus-goi-keepiskopan-jakarta-dan-seluruh-indonesia/"
 tags: ["Eastern Orthodox Church"]
 ---
