@@ -4,9 +4,9 @@ import NavbarMenu from './NavbarMenu.astro';
 ---
 
 <Section>
-	<div class="flex justify-between">
-		<div class="relative">
-			<!-- Add a relative parent container -->
+	<div class="mx-auto flex max-w-[408px] flex-wrap justify-between px-4 sm:max-w-none">
+		<!-- Hamburger Menu Section -->
+		<div class="relative w-full sm:w-auto">
 			<!-- Hamburger Button -->
 			<button
 				id="menu-toggle"
@@ -24,7 +24,7 @@ import NavbarMenu from './NavbarMenu.astro';
 		</div>
 
 		<!-- Logo -->
-		<div class="text-3xl font-bold">
+		<div class="w-full text-center text-3xl font-bold sm:w-auto sm:text-left">
 			<a href="/">
 				💻 <span class="pr-2 text-2xl text-gray-500">{'<'}</span>natanhp<span
 					class="text-orange-600">.</span
@@ -33,7 +33,7 @@ import NavbarMenu from './NavbarMenu.astro';
 		</div>
 
 		<!-- Navigation and Light/Dark Toggle -->
-		<div class="flex items-center">
+		<div class="flex w-full items-center justify-center sm:w-auto sm:justify-start">
 			<NavbarMenu id="menu" classes="ml-auto hidden sm:block" />
 
 			<!-- Light/Dark Toggle -->
