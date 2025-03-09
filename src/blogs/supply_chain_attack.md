@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Supply Chain Attack: Pelajaran untuk Software Engineer"
 pubDate: 2024-09-19
 description: "Artikel tentang Supply Chain Attack pada lingkup software engineering."

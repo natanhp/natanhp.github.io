@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Synaxarion 14 September 2024 (Julian): Pengangkatan Salib Kristus yang Suci dan Memberi Hidup"
 pubDate: 2024-09-26
 description: "Synaxarion dari peristiwa Pengangkatan Salib Kristus yang Suci dan Memberi Hidup."

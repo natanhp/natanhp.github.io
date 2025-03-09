@@ -4,9 +4,6 @@
     "blog": {
       "type": "object",
       "properties": {
-        "layout": {
-          "type": "string"
-        },
         "title": {
           "type": "string"
         },
@@ -68,7 +65,6 @@
         }
       },
       "required": [
-        "layout",
         "title",
         "pubDate",
         "description",

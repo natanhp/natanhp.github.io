@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Synaxarion 28 September 2024 (Julian): Rahib Chariton Sang Pengaku"
 pubDate: 2024-10-10
 description: "Synaxarion dari Rahib Chariton Sang Pengaku."

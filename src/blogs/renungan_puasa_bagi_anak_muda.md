@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Renungan: Puasa Bagi Anak Muda"
 pubDate: 2025-03-07
 description: "Tulisan ini adalah draft yang saya buat untuk renungan bagi Ha Na'arim Parokia Tritunggal Mahakudus dalam sembahyang senja 6 Maret 2025."

@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Synaxarion 21 September 2024 (Julian): Rasul Kudus Quadratus"
 pubDate: 2024-10-03
 description: "Synaxarion dari Rasul Kudus Kristus."

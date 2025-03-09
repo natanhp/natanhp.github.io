@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Makna Penggunaan Aer dalam Liturgi Suci"
 pubDate: 2024-10-02
 description: "Makna Penggunaan Aer dalam Liturgi Suci."

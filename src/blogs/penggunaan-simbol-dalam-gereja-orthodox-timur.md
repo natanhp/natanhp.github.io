@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Penggunaan Simbol dalam Gereja Orthodox Timur"
 pubDate: 2024-09-25
 description: "Penggunaan Simbol dalam Gereja Orthodox Timur."

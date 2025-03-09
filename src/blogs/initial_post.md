@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Initial Post"
 pubDate: 2024-09-14
 description: "This is the first post of my new Astro blog."

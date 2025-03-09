@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "VulnHub Source: 1 Write Up"
 pubDate: 2024-09-18
 description: "Penulis berhasil menyelesaikan tantangan CTF dengan memanfaatkan kerentanan Webmin untuk mendapatkan akses root dan mengambil flag."

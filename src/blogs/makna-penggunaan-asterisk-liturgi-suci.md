@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Makna Penggunaan Asterisk dalam Liturgi Suci"
 pubDate: 2024-10-09
 description: "Makna Penggunaan Asterisk dalam Liturgi Suci."

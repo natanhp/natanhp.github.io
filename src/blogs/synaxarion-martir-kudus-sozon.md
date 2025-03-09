@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Synaxarion 7 September 2024 (Julian): Martir Kudus Sozon"
 pubDate: 2024-09-20
 description: "Synaxarion dari Martir Kudux Sozon yang kita peringati hari ini."

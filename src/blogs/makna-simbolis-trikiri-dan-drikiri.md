@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: "Makna Penggunaan Trikirion dan Drikirion dalam Liturgi Suci"
 pubDate: 2024-10-23
 description: "Makna Penggunaan Trikirion dan Drikirion dalam Liturgi Suci."
