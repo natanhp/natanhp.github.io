@@ -1,0 +1,90 @@
+---
+title: "Writeup: Flare On 11 - Frog"
+pubDate: 2025-03-15
+description: "Tulisan ini sebenarnya tulisan lama yang sayang untuk ngga dipost tapi malu untuk dipost karena terlalu sepele. Semoga di challenge selanjutnya bisa konsisten untuk mengerjakan lebih jauh lagi, bukan hanya sekedar soal introduction."
+author: "natanhp"
+excerpt: "Soal pertama ini sangat mudah, mungkin kalau di CTF biasa, ini jenis soal untuk memperkenalkan kepada pemain bagaimana format flagnya, yang biasanya hanya tinggal copas dari deskripsi soal ke field untuk submit flag. Tetapi di Flare-On 11 ini agak beda, karena saya harus tetap melakukan reverse engineering."
+image:
+  src: "../assets/images/flare-on-11-1-frog-start.png"
+  alt: "Tampilan awal challenge."
+tags: ["Cyber Security", "CTF"]
+---
+
+import frogFlag from '@/assets/images/flare-on-11-1-frog-flag.png';
+import ImageCaption from '@/components/ImageCaption.astro';
+
+Tulisan ini sebenarnya tulisan lama yang sayang untuk ngga dipost tapi malu untuk dipost karena terlalu sepele. Semoga di challenge selanjutnya bisa konsisten untuk mengerjakan lebih jauh lagi, bukan hanya sekedar soal introduction.
+
+## Deskripsi
+Welcome to Flare-On 11! Download this 7zip package, unzip it with the password 'flare', and read the README.txt file for launching instructions. It is written in PyGame so it may be runnable under many architectures, but also includes a pyinstaller created EXE file for easy execution on Windows.
+
+Your mission is get the frog to the "11" statue, and the game will display the flag. Enter the flag on this page to advance to the next stage. All flags in this event are formatted as email addresses ending with the @flare-on.com domain.
+
+frog.7z
+
+## Pembahasan
+Soal pertama ini sangat mudah, mungkin kalau di CTF biasa, ini jenis soal untuk memperkenalkan kepada pemain bagaimana format flagnya, yang biasanya hanya tinggal copas dari deskripsi soal ke field untuk submit flag. Tetapi di Flare-On 11 ini agak beda, karena saya harus tetap melakukan reverse engineering.
+
+### Unzip File
+Ekstrak file dengan menggunakan `7z` dan password `flare`.
+
+```bash
+7za x frog.7z
+```
+
+### Instal Requirements
+Pada file `README.md`, terdapat requirement untuk menginstall `PyGame` di `Python 3`. Untuk itu, saya membuat virtualenv agar tidak mengganggu Python di system saya.
+
+```bash
+pyenv virtualenv 3.12.0 flareon
+pyenv activate flareon
+pip install PyGame
+```
+
+### Penyelesaian
+#### Jalankan Program
+Pada saat dijalankan menggunakan perintah `python frog.py`, program akan menampilkan sebuah permainan yang tujuannya adalah membuat si katak ini mencapai di patung angka 11. Kendalanya adalah ada dinding pembatas.
+
+#### Lihat Source Code 
+Melihat challenge ini, saya teringat sewaktu kuliah pernah membuatkan game sederhana seperti ini untuk teman saya. Blok yang menjadi pembatas seharusnya dapat dengan mudah dibypass dengan menghilangkan kondisi untuk pengecekannya. Setelah melihat file `frog.py`, terlihat fungsi yang mengatur pergerakan pemain.
+
+```python
+def AttemptPlayerMove(dx, dy):
+    newx = player.x + dx
+    newy = player.y + dy
+
+    # Can only move within screen bounds
+    if newx < 0 or newx >= tiles_width or newy < 0 or newy >= tiles_height:
+        return False
+
+    # See if it is moving in to a NON-PASSABLE block.  hint hint.
+    for block in blocks:
+        if newx == block.x and newy == block.y and not block.passable:
+            return False
+
+    player.move(dx, dy)
+    return True
+```
+
+#### Eksekusi
+Dari source yang telah ditemukan, saya langsung memasang comment pada bagian pengecekan dinding pembatas seperti ini:
+```python 
+def AttemptPlayerMove(dx, dy):
+    newx = player.x + dx
+    newy = player.y + dy
+
+    # Can only move within screen bounds
+    if newx < 0 or newx >= tiles_width or newy < 0 or newy >= tiles_height:
+        return False
+
+    # See if it is moving in to a NON-PASSABLE block.  hint hint.
+    # for block in blocks:
+    #     if newx == block.x and newy == block.y and not block.passable:
+    #         return False
+
+    player.move(dx, dy)
+    return True
+```
+<ImageCaption src={frogFlag} alt="Flag didapatkan."/>
+
+Dan kemudian menjalankan program dengan `python frog.py`. Pemain kemudian bisa membypass dinding pembatas dan meletakan katak ke patung angka 11. Flag yang didapatkan adalah `welcome_to_11@flare-on.com`.
