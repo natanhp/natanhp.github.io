@@ -1,4 +1,3 @@
-
 const disabledCss = {
 	'code::before': false,
 	'code::after': false,
@@ -16,7 +15,18 @@ export default {
 	theme: {
 		extend: {
 			typography: {
-				DEFAULT: { css: disabledCss },
+				DEFAULT: {
+					css: {
+						disabledCss,
+						pre: {
+							maxWidth: '100%',
+							overflowX: 'auto',
+							backgroundColor: '#f8fafc', // Optional bg color
+							borderRadius: '0.5rem',
+							padding: '1rem'
+						}
+					}
+				},
 				sm: { css: disabledCss },
 				lg: { css: disabledCss },
 				xl: { css: disabledCss },
