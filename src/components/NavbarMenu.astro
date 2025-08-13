@@ -1,13 +1,12 @@
 ---
 interface Props {
-	id: string;
 	classes: string;
 }
 
-const { id, classes } = Astro.props;
+const { classes } = Astro.props;
 ---
 
-<nav id={id} class={classes}>
+<nav class={classes}>
 	<ul class="flex flex-col sm:flex-row sm:space-x-4">
 		<li><a href="/tags" class="block py-2 hover:text-orange-600">TAGS</a></li>
 		<li><a href="/posts" class="block py-2 hover:text-orange-600">BLOG</a></li>
