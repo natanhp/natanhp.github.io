@@ -19,12 +19,12 @@ Kami berseru dengan segenap hati kami, kepada Perawan Maria yang terpilih, yang 
 # Ikos 1
 Seorang malaikat memberitakan kelahiran Juruselamat dunia kepada para gembala di Bethlemen dan bersama bala tentara surgawi memuji Allah sambil bernyanyi: Kemuliaaan bagi Allah di tempat maha tinggi dan damai di atas bumi dan di antara manusia yang berkenan kepada-Nya!. Tetapi engkau, Ya Theotokos, karena tidak ada tempat untuk meletakan kepala mu, sebab tidak ada tempat bagi mu di penginapan, meahirkan Putra sulung mu di sebuah gua, dan membungkus-Nya dengan kain lampin, membaringkan-Nya di palungan. Mengetahui sakit hati yang engkau rasakan, kami berseru padamu:
 
-Bersukacitalah, sebab engkau dihangatkan oleh napas Putera my yang terkasih!
-Bersukacitalah, sebab engkau membungkus Sang Anak yang Kekal dengan kain lampin!
-Bersukacitalah, sebab engkau menyusui dengan air susu mu Dia yang menopang alam semesta!
-Bersukacitalah, sebab engkau mengubah gua menjadi surga!
-Bersukacitalah, sebab engkau menjadikan tahktamu di atas Kerubim!
-Bersukacitalah, sebab engkau tetap perawan, baik saat melahirkan maupun sesudah melahirkan!
+Bersukacitalah, sebab engkau dihangatkan oleh napas Putera my yang terkasih!  
+Bersukacitalah, sebab engkau membungkus Sang Anak yang Kekal dengan kain lampin!  
+Bersukacitalah, sebab engkau menyusui dengan air susu mu Dia yang menopang alam semesta!  
+Bersukacitalah, sebab engkau mengubah gua menjadi surga!  
+Bersukacitalah, sebab engkau menjadikan tahktamu di atas Kerubim!  
+Bersukacitalah, sebab engkau tetap perawan, baik saat melahirkan maupun sesudah melahirkan!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 2
@@ -33,12 +33,12 @@ Melihat Anak yang Kekal terbalut dan terbaring dalam palungan, para gembala di B
 # Ikos 2
 Dengan pemahaman yang didasarkan pada Allah dan pemeliharaan terhadap Hukum Tuhan, pada hari ke 40 ketika hari pentahiran sudah tergenapi, orang tua-Nya membawa Yesus ke Yerusalem supaya mereka membersembahkan-Nya kepada Tuhan dan mempersembahkan bagin-Nya menurut ketetapan Hukum Tuhan. Tetapi kami menyanyi kepada mu, ya Theotokos, demikian:
 
-Bersukacitalah, sebab engkau membawa pencipta semesta ke Bait Allah di Yerusalem, untuk menggenapi hukum Taurat!
-Bersucaktialah, sebab engkau di sana bertemu dengan Simeon dengan sukacita!
-Bersukacitalah, sebab engkau yang termurni dan terberkati di antara kaum wanita!
-Bersukacitalah, sebab dengan kerendahan hati engkau memikul salibmu yang dihiasi dukacita!
-Bersukacitalah, sebab engkau tidak pernah menolak kehendak Allah!
-Bersukacitalah, sebab engkau menyatakan dirimu sebagai teladan kesabaran dan kerendahan hati!
+Bersukacitalah, sebab engkau membawa pencipta semesta ke Bait Allah di Yerusalem, untuk menggenapi hukum Taurat!  
+Bersucaktialah, sebab engkau di sana bertemu dengan Simeon dengan sukacita!  
+Bersukacitalah, sebab engkau yang termurni dan terberkati di antara kaum wanita!  
+Bersukacitalah, sebab dengan kerendahan hati engkau memikul salibmu yang dihiasi dukacita!  
+Bersukacitalah, sebab engkau tidak pernah menolak kehendak Allah!  
+Bersukacitalah, sebab engkau menyatakan dirimu sebagai teladan kesabaran dan kerendahan hati!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 3
@@ -47,12 +47,12 @@ Engkau dikuatkan oleh kuasa dari atas, ya Theotokos, ketika engkau mendengar per
 # Ikos 3
 Bergegas untuk membinasakan Sang Anak, Herodes memerintahkan pembunuhan semua anak di Bethlehem dan sekitarnya, dari usia dua tahun ke bawah sesuai waktu yang ditetapkan Orang Majus. Dan lihatlah, menurut perintah Allah, Yusuf diberitahu oleh seorang malaikat melalui mimpi untuk melarikan diri bersama Keluarga Kudus ke Mesir dan tinggal di sana sampai kematian Herodes. Maka dari itu dengan penyesalan, kami berseru kepadamu, ya Theotokos:
 
-Bersukacitalah, sebab engkau menanggung segala kesulitan pengasingan!
-Bersukacitalah, sebab para berhala di Mesir tumbang, tak dapat menahan kuasa Anak mu!
-Bersukacitalah, sebab engkau tinggal selama tujuh tahun di antara kaum penyembah berhala yang tercela!
-Bersukacitalah, sebab engkau tiba di Nazareth dengan Anak Sulung dan tunanganmu!
-Bersukacitalah, sebab engkau hidup bersama Yusuf sang tukang kayu dalam kemiskinan!
-Bersukacitalah, sebab engkau menghabiskan seluruh waktumu untuk bekerja keras!
+Bersukacitalah, sebab engkau menanggung segala kesulitan pengasingan!  
+Bersukacitalah, sebab para berhala di Mesir tumbang, tak dapat menahan kuasa Anak mu!  
+Bersukacitalah, sebab engkau tinggal selama tujuh tahun di antara kaum penyembah berhala yang tercela!  
+Bersukacitalah, sebab engkau tiba di Nazareth dengan Anak Sulung dan tunanganmu!  
+Bersukacitalah, sebab engkau hidup bersama Yusuf sang tukang kayu dalam kemiskinan!  
+Bersukacitalah, sebab engkau menghabiskan seluruh waktumu untuk bekerja keras!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 4
@@ -61,12 +61,12 @@ Badai kedukaan melanda Ibu yang termurni ketika mereka kembali dari Yerusalem, t
 # Ikos 4
 Sang Theotokos mendengar bahwa Yesus mengembara di Galilea, mengajar di sinagoga-sinagoga mereka, memberitakan Injil Kerajaan Allah dan menyembuhkan segala penyakit dan kelemahan di antara banyak orang. Dan nama-Nya tersiar ke seluruh Siria dan mereka membawa kepadanya segala jenis penyakit dan penderitaan, mereka yang disiksa roh jahat dan yang lumpuh, dan Dia menyembuhkan mereka. Tetapi engkau, ya Theotokos, mengetahui nubuatan itu, berduka di dalam hati mu, mengetahui bahwa akan segera tiba waktunya ketika Anak mu akan mempersembahkan diri-Nya sebagai korban bagi dosa-dosa dunia. Oleh karena itu kami memberkati engkau, Theotokos yang penuh kedukaan, sambil berseru:
 
-Bersukacitalah, sebab engkau memberikan Anak mu untuk melayani orang-orang Yahudi!
-Bersukacitalah, sebab engkau berduka di hatimu, tetapi tetap tunduk pada kehendak Allah!
-Bersukacitalah, sebab engkau menyelamatkan dunia dari air bah dosa!
-Bersukacitalah, sebab engkau meremukan kepala si ular tua!
-Bersukacitalah, sebab engkau membersempahkan dirimu sebagai korban yang hidup bagi Allah!
-Bersukacitalah, ya yang terberkati, Tuhan beserta mu!
+Bersukacitalah, sebab engkau memberikan Anak mu untuk melayani orang-orang Yahudi!  
+Bersukacitalah, sebab engkau berduka di hatimu, tetapi tetap tunduk pada kehendak Allah!  
+Bersukacitalah, sebab engkau menyelamatkan dunia dari air bah dosa!  
+Bersukacitalah, sebab engkau meremukan kepala si ular tua!  
+Bersukacitalah, sebab engkau membersempahkan dirimu sebagai korban yang hidup bagi Allah!  
+Bersukacitalah, ya yang terberkati, Tuhan beserta mu!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 5
@@ -75,12 +75,12 @@ Mewartakan kerajaan Allah di bumi, Yesus menelanjangi kesombongan orang-orang Fa
 # Ikos 5
 Beberapa orang Yahudi, setelah melihat kebangkitan Lazarus, pergi kepada orang-orang Farisi dan memberitahu mereka apa yang Yesus telah perbuat. Dan Kayafas, yang adalah imam besar pada tahun itu, berkata: "Lebih baik bagi kita jika satu orang mati untuk bangsa ini, daripada seluruh bangsa ini binasa." Mulai hari itu mereka berunding tentang bagaimana cara mereka membunuh Dia. Tetapi kami berseru kepadamu, ya yang maha suci:
 
-Bersukacitalah, engkau yang memberikan kelahiran kepada Juru Selamat dunia!
-Bersukacitalah, sumber keselamatan kami!
-Bersukacitalah, sebab engkau telah dipilih sejak lahir untuk menjadi ibu dari Juru Selamat kami!
-Bersukacitalah, Theotokos yang ditetapkan untuk menderita!
-Bersukacitalah, ya engkau yang terberkati, yang memimpin sebagai Ratu Surga!
-Bersukacitalah, ya engkau yang terberkati, yang selalu berdoa bagi kami!
+Bersukacitalah, engkau yang memberikan kelahiran kepada Juru Selamat dunia!  
+Bersukacitalah, sumber keselamatan kami!  
+Bersukacitalah, sebab engkau telah dipilih sejak lahir untuk menjadi ibu dari Juru Selamat kami!  
+Bersukacitalah, Theotokos yang ditetapkan untuk menderita!  
+Bersukacitalah, ya engkau yang terberkati, yang memimpin sebagai Ratu Surga!  
+Bersukacitalah, ya engkau yang terberkati, yang selalu berdoa bagi kami!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 6
@@ -89,12 +89,12 @@ Yudas Iskariot, yang pernah menjadi pewarta Firman Allah, dan kini menjadi seora
 # Ikos 6
 Ikut ambil bagian dalam perjamuan terakhir bersama para murid di mana Sang Guru membasuh kaki mereka, dengan demikian menunjukan teladan kerendahan hati, Kristus berkata kepada mereka, "Salah seorang di antara kamu akan mengkhianati Aku." Tetapi kami yang menderita bersama Theotokos, berseru kepadanya:
 
-Bersukacitalah, Theotokos yang merana oleh siksaan hati mu!
-Bersukacitalah, engkau yang menderita segalanya di lembah kesedihan ini!
-Bersukacitalah, engkau yang menemukan penghiburan dalam doa!
-Bersukacitalah, sukacita bagi semua yang berduka!
-Bersukacitalah, engkau yang menyelamatkan kami dari kubangan dosa!
-Bersukacitalah, bejana yang dipenuhi rahmat Roh Kudus!
+Bersukacitalah, Theotokos yang merana oleh siksaan hati mu!  
+Bersukacitalah, engkau yang menderita segalanya di lembah kesedihan ini!  
+Bersukacitalah, engkau yang menemukan penghiburan dalam doa!  
+Bersukacitalah, sukacita bagi semua yang berduka!  
+Bersukacitalah, engkau yang menyelamatkan kami dari kubangan dosa!  
+Bersukacitalah, bejana yang dipenuhi rahmat Roh Kudus!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 7
@@ -103,11 +103,11 @@ Ingin menunjukan kasih-Nya kepada umat manusia, Tuhan Yesus Kristus dalam Perjam
 # Ikos 7
 Tuhan menyatakan tanda baru dari belas kasihan-Nya kepada para murid-Nya ketika Dia berjanji akan mengutus Sang Penghibur, Sang Roh Kebenaran, yang akan turun dari Sang Bapa dan akan memberikan kesaksian tentang Dia. Namun kepada mu, ya Theotokos, yang disucikan kembali pada hari Pentakosta oleh Roh Kudus, kami berseru:
 
-Bersukacitalah, istana Roh Kudus!
-Bersukacitalah, ruang pengantin yang bercahaya terang!
-Bersukacitalah, tempat tinggalnya Firman Allah yang lapang!
-Bersukacitalah, engkau yang membuka gerbang surga bagi kami melalui pemberi lahiranmu!
-Bersukacitalah, engkau yang menunjukan tanda belas kasihan-Nya sendiri kepada kami!
+Bersukacitalah, istana Roh Kudus!  
+Bersukacitalah, ruang pengantin yang bercahaya terang!  
+Bersukacitalah, tempat tinggalnya Firman Allah yang lapang!  
+Bersukacitalah, engkau yang membuka gerbang surga bagi kami melalui pemberi lahiranmu!  
+Bersukacitalah, engkau yang menunjukan tanda belas kasihan-Nya sendiri kepada kami!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 8
@@ -116,12 +116,12 @@ Sangatlah mengherankan dan menyedihkan bagi kami untuk mendengar bagaimana Yudas
 # Ikos 8
 Seluruh orang Yahudi membawa Yesus dari Kayafas ke pengadilan kepada Pilatus, sambil berkata bahwa Dia adalah seorang penjahat. Tetapi Pilatus, setelah menanyai-Nya, berkata kepada mereka bahwa dia tidak menemukan kesalahan apapun pada-Nya. Tetapi kami berseru kepada mu dengan rasa sesal, ya Theotokos, yang melihat fitnah atas Anak mu:
 
-Bersukacitalah, engkau yang hatinya remuk oleh dukacita!
-Bersukacitalah, sebab engkau meneteskan air mata untuk Anak mu!
-Bersukacitalah, engkau yang melihat Anak mu yang terkasih diserahkan untuk diadili!
-Bersukacitalah, sebab engkau menderita semuanya tanpa bersungut-sungut, bagaikan seorang hamba yang sejati Tuhan!
-Bersukacitapah, meskipun dengan tangis dan ratapan mu!
-Bersukacitalah, ya Ratu Surga dan bumi, yang menerima doa dari para hamba mu!
+Bersukacitalah, engkau yang hatinya remuk oleh dukacita!  
+Bersukacitalah, sebab engkau meneteskan air mata untuk Anak mu!  
+Bersukacitalah, engkau yang melihat Anak mu yang terkasih diserahkan untuk diadili!  
+Bersukacitalah, sebab engkau menderita semuanya tanpa bersungut-sungut, bagaikan seorang hamba yang sejati Tuhan!  
+Bersukacitapah, meskipun dengan tangis dan ratapan mu!  
+Bersukacitalah, ya Ratu Surga dan bumi, yang menerima doa dari para hamba mu!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 9
@@ -130,12 +130,12 @@ Seluruh keturunan memberkati engkau, yang lebih terhormat dari Kerubim dan tak t
 # Ikos 9
 Para orator yang fasik tidak mampu melukiskan seluruh penderitaan yang Engkau tanggung, ya Juru selamat kami, seperti ketika seorang prajurit meletakan mahkota duri di kepala Mu dan memakaikan jubah ungu kepada Mu, sambil berkata, "Salam, Raja orang Yahudi!" dan menampar wajah Mu. Tetapi kami, ya Theotokos, menyadari penderitaan mu, berseru pada mu:
 
-Bersukacitalah, engkau yang menyaksikan Anak mu dibunuh demi kami!
-Bersukacitalah, melihat Dia dikenakan jubah ungu dan mahkota duri!
-Bersukacitalah, melihat dia disiksa, Dia yang engkau susui dengan air susu mu!
-Bersukacitalah, engkau yang turut menderita sengsaranya Nya bersama dengan Dia!
-Bersukacitalah, engkau yang menyaksikan semua murid Nya meninggalkan Nya!
-Bersukacitalah, engkau yang melihat Dia dihukum oleh pengadilan yang tidak adil!
+Bersukacitalah, engkau yang menyaksikan Anak mu dibunuh demi kami!  
+Bersukacitalah, melihat Dia dikenakan jubah ungu dan mahkota duri!  
+Bersukacitalah, melihat dia disiksa, Dia yang engkau susui dengan air susu mu!  
+Bersukacitalah, engkau yang turut menderita sengsaranya Nya bersama dengan Dia!  
+Bersukacitalah, engkau yang menyaksikan semua murid Nya meninggalkan Nya!  
+Bersukacitalah, engkau yang melihat Dia dihukum oleh pengadilan yang tidak adil!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 10
@@ -144,12 +144,12 @@ Karena ingin menyelamatkan Yesus, Pilatus berkata kepada orang-orang Yahudi, "Ki
 # Ikos 10
 Jadilah tembok dan benteng bagi kami, ya Ibu, kami yang terbebani dukacita dan penderitaan. Sebab engkau sendiri menderita ketika mendengar orang-orang Yahudi berseru, "Salibkan, salibkan Dia!" Kini dengarkanlah kami yang berseru kepada mu:
 
-Bersukacitalah, Ibu beberlaskasihan, yang menghapus setiap air mata dari mereka yang menderita dengan kejam!
-Bersukacitalah, engkau yang menganugerahkan kami air mata penyesalan dari lubuk hati!
-Bersukacitalah, engkau yang menyelamatkan para pendosa yang tersesat!
-Bersukacitalah, pelindung orang Kristen yang tidak pernah mengecewakan!
-Bersukacitalah, engkau yang menyelamatkan kami dari hawa nafsu kami!
-Bersukacitalah, engkau yang menganugerahkan penghiburan bagi hati yang remuk!
+Bersukacitalah, Ibu beberlaskasihan, yang menghapus setiap air mata dari mereka yang menderita dengan kejam!  
+Bersukacitalah, engkau yang menganugerahkan kami air mata penyesalan dari lubuk hati!  
+Bersukacitalah, engkau yang menyelamatkan para pendosa yang tersesat!  
+Bersukacitalah, pelindung orang Kristen yang tidak pernah mengecewakan!  
+Bersukacitalah, engkau yang menyelamatkan kami dari hawa nafsu kami!  
+Bersukacitalah, engkau yang menganugerahkan penghiburan bagi hati yang remuk!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 11
@@ -158,13 +158,13 @@ Kami mempersembahkan kidung dukacita yang tulus kepada Juru selamat dunia atas s
 # Ikos 11
 "Ya Anak dan Allah ku yang kekal, Pencipta semua ciptaan! Ya Tuhan, bagimana engkau menanggung penderitaan di Kayu Salib?" Sang perawan termurni berseru, mengatakan: "Melalui kelahiranmu yang menakjubkan, ya Anak ku, aku telah ditinggikan melebihi semua ibu, tetapi celaka lah aku! Ketika aku melihat Engkau, rahim ku terasa terbakar di dalam diri ku." Tetapi kami meneteskan air mata mengingat engkau, dan berseru pada mu:
 
-Bersukacitalah, engkau yang dirampas dari sukacita dan kebahagiaan!
-Bersukacitalah, engkau yang menyaksikan sengsara sukarela dari Anak mu di Kayu Salib!
-Bersukacitalah, engkau yang melihat Anak mu yang terkasih penuh luka!
-Bersukacitalah, doma betina yang melihat anak Mu sebagai domba yang digiring ke pemotongan!
-Bersukacitalah, engkau yang menyaksikan Sang Pembebas luka batin dan tubuh yang dipehuni luka!
-Bersukacitalah, engkau yang menyaksikan Anak mu bangkit dari kematian!
-Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
+Bersukacitalah, engkau yang dirampas dari sukacita dan kebahagiaan!  
+Bersukacitalah, engkau yang menyaksikan sengsara sukarela dari Anak mu di Kayu Salib!  
+Bersukacitalah, engkau yang melihat Anak mu yang terkasih penuh luka!  
+Bersukacitalah, doma betina yang melihat anak Mu sebagai domba yang digiring ke pemotongan!  
+Bersukacitalah, engkau yang menyaksikan Sang Pembebas luka batin dan tubuh yang dipehuni luka!  
+Bersukacitalah, engkau yang menyaksikan Anak mu bangkit dari kematian!  
+Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!  
 
 # Kontakion 12
 Ya Juru Selamat yang maha berbelas kasih, anugerahkanlah belas kasihan kepada kami, Engkau yang menghembus kan Roh mu di atas Kayu Salib dan menghapuskan dosa-dosa kami. "Lihat lah, Cahaya baik ku, Allah ku, padam di atas Kayu Salib!" Seru Sang Perawan dalam kepedihan yang besar. "Ya Yusuf, cepatlah menghadap kepada Pilatus, memohonlah kepada dia untuk menurunkan Guru mu dari Kayu Salib." "Melihat Tubuh Nya yang terluka, telanjang dan tanpa kemuliaan, di atas Kayu Salib, ya Anak ku, pedang telah menusuk jiwa ku sesuai dengan nubuatan Simeon," kata Theotokos sambil bernyanyi: Haleluya!
@@ -172,12 +172,12 @@ Ya Juru Selamat yang maha berbelas kasih, anugerahkanlah belas kasihan kepada ka
 # Ikos 12
 Sambil mengidungkan belas kasihan Mu, ya Pengasih manusia, kami bersujud di hadapan belas kasih Mu yang melimpah, ya Tuhan. Sang maha murni berkata, "Demi menyelamatkan ciptaan Mu, engkau telah menyerahkan diri Mu sendiri kepada kematian." Tetapi oleh kebangkitan Mu, ya Juru Selamat, kasihanilah kami, sambil kami memohon kepada Ibu mu yang termurni:
 
-Bersukacitalah, engkau yang melihat Tuhan yang maha baik mati dan tanpa nafas!
-Bersukacitalah, engkau yang mencium jenazah Anak mu yang terkasih!
-Bersukacitalah, engkau yang melihat Terang mu sebagai jenazah yang telanjang dan penuh luka!
-Bersukacitalah, engkau yang meletakan Terang dunia di dalam makam!
-Bersukacitalah, engkau yang membungkus jasad anak mu dengan kain kafan yang baru!
-Bersukacitalah, engkau yang menyaksikan kebangkitan Nya dari kematian!
+Bersukacitalah, engkau yang melihat Tuhan yang maha baik mati dan tanpa nafas!  
+Bersukacitalah, engkau yang mencium jenazah Anak mu yang terkasih!  
+Bersukacitalah, engkau yang melihat Terang mu sebagai jenazah yang telanjang dan penuh luka!  
+Bersukacitalah, engkau yang meletakan Terang dunia di dalam makam!  
+Bersukacitalah, engkau yang membungkus jasad anak mu dengan kain kafan yang baru!  
+Bersukacitalah, engkau yang menyaksikan kebangkitan Nya dari kematian!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 13 (Diulang 3x)
@@ -188,12 +188,12 @@ Ya Ibu yang senantiasa dipuji di dalam kidung, yang hancur oleh kedukaan di Sali
 # Ikos 1
 Seorang malaikat memberitakan kelahiran Juruselamat dunia kepada para gembala di Bethlemen dan bersama bala tentara surgawi memuji Allah sambil bernyanyi: Kemuliaaan bagi Allah di tempat maha tinggi dan damai di atas bumi dan di antara manusia yang berkenan kepada-Nya!. Tetapi engkau, Ya Theotokos, karena tidak ada tempat untuk meletakan kepala mu, sebab tidak ada tempat bagi mu di penginapan, meahirkan Putra sulung mu di sebuah gua, dan membungkus-Nya dengan kain lampin, membaringkan-Nya di palungan. Mengetahui sakit hati yang engkau rasakan, kami berseru padamu:
 
-Bersukacitalah, sebab engkau dihangatkan oleh napas Putera my yang terkasih!
-Bersukacitalah, sebab engkau membungkus Sang Anak yang Kekal dengan kain lampin!
-Bersukacitalah, sebab engkau menyusui dengan air susu mu Dia yang menopang alam semesta!
-Bersukacitalah, sebab engkau mengubah gua menjadi surga!
-Bersukacitalah, sebab engkau menjadikan tahktamu di atas Kerubim!
-Bersukacitalah, sebab engkau tetap perawan, baik saat melahirkan maupun sesudah melahirkan!
+Bersukacitalah, sebab engkau dihangatkan oleh napas Putera my yang terkasih!  
+Bersukacitalah, sebab engkau membungkus Sang Anak yang Kekal dengan kain lampin!  
+Bersukacitalah, sebab engkau menyusui dengan air susu mu Dia yang menopang alam semesta!  
+Bersukacitalah, sebab engkau mengubah gua menjadi surga!  
+Bersukacitalah, sebab engkau menjadikan tahktamu di atas Kerubim!  
+Bersukacitalah, sebab engkau tetap perawan, baik saat melahirkan maupun sesudah melahirkan!  
 Bersukacitalah, Theotokos yang penuh kedukaan, ubahlah kesedihan kami menjadi sukacita dan lembutkanlah hati orang-orang jahat!
 
 # Kontakion 1
