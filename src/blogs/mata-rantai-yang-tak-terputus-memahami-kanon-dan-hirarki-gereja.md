@@ -12,9 +12,9 @@ tags: ["Eastern Orthodox Church"]
 
 #### Kisah Para Rasul 8:4-25 (TB):
 
-```
+`
 8:4 Mereka yang tersebar itu menjelajah seluruh negeri itu sambil memberitakan Injil. 8:5 Dan Filipus pergi ke suatu kota di Samaria dan memberitakan Mesias kepada orang-orang di situ. 8:6 Ketika orang banyak itu mendengar pemberitaan Filipus dan melihat tanda-tanda yang diadakannya, mereka semua dengan bulat hati menerima apa yang diberitakannya itu. 8:7 Sebab dari banyak orang yang kerasukan roh jahat keluarlah roh-roh itu sambil berseru dengan suara keras, dan banyak juga orang lumpuh dan orang timpang yang disembuhkan. 8:8 Maka sangatlah besar sukacita dalam kota itu. 8:9 Seorang yang bernama Simon telah sejak dahulu melakukan sihir di kota itu dan mentakjubkan rakyat Samaria, serta berlagak seolah-olah ia seorang yang sangat penting. 8:10 Semua orang, besar kecil, mengikuti dia dan berkata: "Orang ini adalah kuasa Allah yang terkenal sebagai Kuasa Besar." 8:11 Dan mereka mengikutinya, karena sudah lama ia mentakjubkan mereka oleh perbuatan sihirnya. 8:12 Tetapi sekarang mereka percaya kepada Filipus yang memberitakan Injil tentang Kerajaan Allah dan tentang nama Yesus Kristus, dan mereka memberi diri mereka dibaptis, baik laki-laki maupun perempuan. 8:13 Simon sendiri juga menjadi percaya, dan sesudah dibaptis, ia senantiasa bersama-sama dengan Filipus, dan takjub ketika ia melihat tanda-tanda dan mujizat-mujizat besar yang terjadi. 8:14 Ketika rasul-rasul di Yerusalem mendengar, bahwa tanah Samaria telah menerima firman Allah, mereka mengutus Petrus dan Yohanes ke situ. 8:15 Setibanya di situ kedua rasul itu berdoa, supaya orang-orang Samaria itu beroleh Roh Kudus. 8:16 Sebab Roh Kudus belum turun di atas seorangpun di antara mereka, karena mereka hanya dibaptis dalam nama Tuhan Yesus. 8:17 Kemudian keduanya menumpangkan tangan di atas mereka, lalu mereka menerima Roh Kudus. 8:18 Ketika Simon melihat, bahwa pemberian Roh Kudus terjadi oleh karena rasul-rasul itu menumpangkan tangannya, ia menawarkan uang kepada mereka, 8:19 serta berkata: "Berikanlah juga kepadaku kuasa itu, supaya jika aku menumpangkan tanganku di atas seseorang, ia boleh menerima Roh Kudus." 8:20 Tetapi Petrus berkata kepadanya: "Binasalah kiranya uangmu itu bersama dengan engkau, karena engkau menyangka, bahwa engkau dapat membeli karunia Allah dengan uang. 8:21 Tidak ada bagian atau hakmu dalam perkara ini, sebab hatimu tidak lurus di hadapan Allah. 8:22 Jadi bertobatlah dari kejahatanmu ini dan berdoalah kepada Tuhan, supaya Ia mengampuni niat hatimu ini; 8:23 sebab kulihat, bahwa hatimu telah seperti empedu yang pahit dan terjerat dalam kejahatan." 8:24 Jawab Simon: "Hendaklah kamu berdoa untuk aku kepada Tuhan, supaya kepadaku jangan kiranya terjadi segala apa yang telah kamu katakan itu." 8:25 Setelah keduanya bersaksi dan memberitakan firman Tuhan, kembalilah mereka ke Yerusalem dan dalam perjalanannya itu mereka memberitakan Injil dalam banyak kampung di Samaria.
-```
+`
 
 Ayat tersebut adalah sebagian kecil catatan Tradisi Suci dari pelayanan Para Rasul dan Gereja mula-mula. Di mana Murid Suci Filipus dari Antara 70 Murid, yang melayani di daerah Samaria, dan berhasil membawa orang percaya untuk menerima misteri baptisan kudus, yang termasuk di dalamnya adalah Simon Magus, pendiri salah satu aliran bidat Gnostik. Tetapi karena Js Filipus secara jenjang keimamatan adalah seorang Diakon, dia tidak dapat memberikan Misteri Krisma Kudus, untuk itulah Gereja mengutus Rasul Petrus Yang Kudus dan Terpuji dan Rasul Kudus dan Penginjil Js Yohanes Sang Theolog, sehingga mereka memiliki otoritas sebagai Rasul, untuk melakukan Misteri Krisma Kudus. Kisah ini bukanlah dongeng dan termasuk di dalam kitab yang dikanonisasi di Konsili Kartage (397 M), yang oleh Tradisi Suci, disebutkan bahwa kitab ini ditulis oleh Rasul Kudus dan Penginjil Lukas, yang merupakan rekan pelayanan dari Rasul Paulus Yang Kudus dan Terpuji.
 
@@ -24,15 +24,15 @@ Kisah Para Rasul yang menurut Tradisi Suci, ditulis oleh Js Lukas, yang judulnya
 
 #### Kisah Para Rasul 16:8-10 (TB)
 
-```
+`
 16:8 Setelah melintasi Misia, mereka sampai di Troas. 16:9 Pada malam harinya tampaklah oleh Paulus suatu penglihatan: ada seorang Makedonia berdiri di situ dan berseru kepadanya, katanya: "Menyeberanglah ke mari dan tolonglah kami!" 16:10 Setelah Paulus melihat penglihatan itu, segeralah kami mencari kesempatan untuk berangkat ke Makedonia, karena dari penglihatan itu kami menarik kesimpulan, bahwa Allah telah memanggil kami untuk memberitakan Injil kepada orang-orang di sana.
-```
+`
 
 #### Against the Heresies Book III Chapter XIV (Terjemahan saya sendiri)
 
-```
+`
 Tetapi Lukas ini tidak terpisahkan dari Paulus, dan merupakan rekan sekerjanya dalam Injil, dia sendiri menunjukannya dengan jelas, bukan untuk menyombongkan diri, tetapi karena tuntutan kebenaran itu sendiri. Karena dia mengatakan, ketika Barnabas, dan Yohanes yang disebut Markus, telah berpisah dengan Paulus, dan pergi berlayar ke Siprus, "Kami tiba di Troas" dan ketika Paulus mendapatkan mimpi tentang seorang di Makedonia berkata, "Datanglah ke Makedonia, Paulus, dan selamatkanlah kami," dia berkata, "Seketika itu juga kami berusaha untuk pergi ke Makedonia, dengan pengertian bahwa Tuhan telah memanggil kami untuk memberitakan Injil kepada mereka. Oleh karena itu dengan berlayar dari Troas, kami mengarahkan haluan langsung menuju Samotrake.
-```
+`
 
 Kata "kami" pada ayat 10, menurut tulisan Js Irenius yang merupakan cucu murid dari Js Yohanes menunjukan bahwa penulis dari Kisah Para Rasul adalah saksi dan rekan sekerja yang tak terpisahkan dari Js Paulus. Tanpa Tradisi Suci, kita tidak akan tahu kitab apa yang kita baca, dan siapa yang menuliskannya.
 
@@ -44,9 +44,9 @@ Melalui Tradisi Suci yang disampaikan tanpa putus ini, Gereja dapat menjaga kemu
 
 #### Galatia 1:8-9 (TB)
 
-```
+`
 1:8 Tetapi sekalipun kami atau seorang malaikat dari sorga yang memberitakan kepada kamu suatu injil yang berbeda dengan Injil yang telah kami beritakan kepadamu, terkutuklah dia. 1:9 Seperti yang telah kami katakan dahulu, sekarang kukatakan sekali lagi: jikalau ada orang yang memberitakan kepadamu suatu injil, yang berbeda dengan apa yang telah kamu terima, terkutuklah dia.
-```
+`
 
 Pada ayat di atas, Js Paulus menganathema orang yang memberitakan injil yang berbeda dengan Injil yang telah diberitakan oleh Para Rasul. Ini adalah Tradisi Suci, yang diturunkan dari Kristus kepada Para Rasulnya, dan yang dilanjutkan oleh murid-muridnya, yang tersimpan sampai sekarang di Gereja-Nya yang hidup. Penafsiran pribadi, yang tidak sesuai dengan apa yang telah diberitakan oleh Para Rasul dan pelanjutnya, akan mendapat anathema, meskipun ia adalah seorang malaikat.
 
