@@ -1,0 +1,23 @@
+---
+const { postId } = Astro.props;
+---
+
+<blockquote
+	class="instagram-media"
+	data-instgrm-permalink={`https://www.instagram.com/p/${postId}/`}
+	data-instgrm-version="14"
+	style="width: 99.375%; margin: 1px;"
+>
+	<a href={`https://www.instagram.com/p/${postId}/`}>View this post on Instagram</a>
+</blockquote>
+
+<script is:inline>
+	if (!window.instgrm) {
+		const script = document.createElement('script');
+		script.async = true;
+		script.src = 'https://www.instagram.com/embed.js';
+		document.head.appendChild(script);
+	} else {
+		window.instgrm.Embeds.process();
+	}
+</script>
